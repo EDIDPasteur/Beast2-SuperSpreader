@@ -7,7 +7,7 @@
              description="A Super Spreader parameterization for the BDMM-Prime model.">
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
-        <depends on='BDMM-Prime' atleast='2.7.0'/>
+        <depends on='BDMM-Prime' atleast='2.7.1'/>
     </package>
 
 </packages>

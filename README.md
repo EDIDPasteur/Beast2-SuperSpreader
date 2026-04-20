@@ -1,4 +1,4 @@
-This is a [BEAST 2](http://beast2.org) package containing the Super Spreader Parameterization for the BDMM model.
+This is a [BEAST 2](http://beast2.org) package adding a parameterization**Super Spreader** Parameterization for the **BDMM-Prime** model.
 
 
 ## Installation
