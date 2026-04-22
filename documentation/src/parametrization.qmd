@@ -1,0 +1,14 @@
+---
+title: "Parametrization"
+---
+
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
+
+```{r}
+
+```
