@@ -3,19 +3,12 @@ project:
   output-dir: docs
   
 website:
-  announcement:
-    icon: info-circle
-    content: "**Alert** - Page under development"
-    dismissable: true
-    position: below-navbar
   page-navigation: true
   title: "Super Sprader Parametrization" 
   navbar:
     search: true
     pinned: true
     left: 
-      - text: "Description"
-        href: src/index.qmd
       - text: "Parametization"
         href: src/parametrization.qmd
       - text: "Tutorial"
@@ -29,7 +22,6 @@ format:
   html:
     theme:
       light: minty
-      dark: darkly
     self-contained: false
     toc: true
     toc-depth: 10
