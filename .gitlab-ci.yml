@@ -1,6 +1,6 @@
 stages:
   - build
-  - create-pages
+  - deploy
 
 build:
   stage: build
@@ -14,7 +14,7 @@ build:
     - ant
 
 create-pages:
-  stage: create-pages
+  stage: deploy
   image: node:lts
   script:
     - echo "Publishing page"
