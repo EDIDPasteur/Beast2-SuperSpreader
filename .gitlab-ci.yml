@@ -1,5 +1,6 @@
 stages:
   - build
+  - create-pages
 
 build:
   stage: build
@@ -11,3 +12,13 @@ build:
     - apt-get install -y ant openjfx unzip wget
   script:
     - ant
+
+create-pages:
+  stage: create-pages
+  image: node:lts
+  script:
+    - echo "Publishing page"
+  pages:
+    publish: documentation/docs
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
