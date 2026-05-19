@@ -1,12 +1,15 @@
-This is a [BEAST 2](http://beast2.org) package adding a parameterization**Super Spreader** Parameterization for the **BDMM-Prime** model.
+This is a [BEAST 2](http://beast2.org) package implementing the **Super Spreader** parameterization for the **BDMM-Prime** model.
 
+## Documentation
+
+A short tutorial and model description are available [here](https://edidpasteur.github.io/Beast2-SuperSpreader/).
 
 ## Installation
 
 ### Requirements
 
-SuperSpreader requires an installation of the BDMM-Prime package on  [BEAST 2.7](https://www.beast2.org/).
-Please, visit the [BDMM-Prime](https://tgvaughan.github.io/BDMM-Prime/) page for installation instructions.
+`SuperSpreader` requires an installation of the BDMM-Prime package on  [BEAST 2.7](https://www.beast2.org/).
+Please visit the [BDMM-Prime](https://tgvaughan.github.io/BDMM-Prime/) page for installation instructions.
 
 ### From BEAUti
 
@@ -16,22 +19,33 @@ Then click on `Add URL` and add the following address:
 ```
 https://raw.githubusercontent.com/Jujuke/Beast2-SuperSpreader/main/package.xml
 ```
-Now the Super Spreader should be available for download in the list of packages.
-Select it, then click the `Install/Upgrade button`.
-Restart **BEAUti** and **SuperSpreader** should now be available to use on your system.
-
-
-
+`SuperSpreader` should now appear in the package list.
+Select it, then click the `Install/Upgrade` button.
+Restart `BEAUti` and `SuperSpreader` should now be available to use on your system.
 
 ### Manually
 
 Download [SuperSpreader.v1.0.0.zip](https://github.com/Jujuke/Beast2-SuperSpreader/releases/download/v1.0.0/SuperSpreader.v1.0.0.zip).
-Then, create a SuperSpreader subdirectory:
+Then, create a `SuperSpreader` subdirectory in:
 
-```
-for Windows in Users\<YourName>\BEAST\2.7\SuperSpreader
-for Mac in /Users/<YourName>\/Library/Application Support/BEAST/2.7/SuperSpreader
-for Linux /home/<YourName>/.beast/2.7/SuperSpreader
-```
+- **Windows**
+
+    `Users\<YourName>\BEAST\2.7\SuperSpreader`
+- **macOS**
+
+  `/Users/<YourName>/Library/Application Support/BEAST/2.7/SuperSpreader`
+- **Linux**
+
+  `/home/<YourName>/.beast/2.7/SuperSpreader`
+
 
 Unzip the zip file in the newly created directory.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See the `COPYING` file for details.
+
+## Citation
+
+Citation information will be added upon publication.
