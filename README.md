@@ -17,7 +17,7 @@ Open **BEAUti** then go to `File -> Manage packages`.
 At the bottom of the window, click on `Package repositories`.
 Then click on `Add URL` and add the following address:
 ```
-https://raw.githubusercontent.com/Jujuke/Beast2-SuperSpreader/main/package.xml
+https://raw.githubusercontent.com/EDIDPasteur/Beast2-SuperSpreader/refs/heads/main/package.xml
 ```
 `SuperSpreader` should now appear in the package list.
 Select it, then click the `Install/Upgrade` button.
