@@ -27,5 +27,6 @@ format:
     self-contained: false
     toc: true
     toc-depth: 10
-engine: knitr
+    css: styles.css
+engine: markdown
 editor: visual

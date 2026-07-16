@@ -12,3 +12,6 @@
 /deps
 .Rproj.user
 *.Rproj
+
+/.quarto/
+**/*.quarto_ipynb
