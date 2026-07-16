@@ -2,25 +2,39 @@ name: Build and Deploy Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+
     env:
       JAVA_FX_HOME: /usr/share/openjfx/lib
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Set up Java 17
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y ant openjfx unzip wget
@@ -28,10 +42,28 @@ jobs:
       - name: Run Ant build
         run: ant
 
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Render Quarto documentation
+        run: |
+          rm -rf documentation/docs
+          quarto render documentation
+
+      - name: Verify generated documentation
+        run: |
+          test -s documentation/docs/index.html
+          echo "Documentation generated successfully"
+          find documentation/docs -maxdepth 2 -type f | head -50
+
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: documentation/docs
+          include-hidden-files: true
 
   deploy:
     needs: build
@@ -41,6 +73,11 @@ jobs:
       pages: write
       id-token: write
 
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v5
