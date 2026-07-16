@@ -20,7 +20,7 @@ The tree was simulated with the following parameters:
 
 ## Download and load the example alignment
 
-- Download [`tutorial.fa`](data/tutorial.fa)
+- Download [`tutorial.fa`](data/tutorial.fa){download="tutorial.fa"}
 - Open the `Partitions` tab in BEAUti
 - Click `Import Alignment`
 - Select the downloaded file
@@ -107,5 +107,5 @@ beast analysis.xml
 
 The following files are provided for reference:
 
-- [`Example XML`](data/tutorial.xml) produced by BEAUti for this test analysis
-- Expected output: [`log file`](data/tutorial.log) and [`typed trees`](data/tutorial.tutorial.typed.trees)
+- [`Example XML`](data/tutorial.xml){download="tutorial.xml"} produced by BEAUti for this test analysis
+- Expected output: [`log file`](data/tutorial.log){download="tutorial.log"} and [`typed trees`](data/tutorial.tutorial.typed.trees){download="tutorial.tutorial.typed.trees"}
