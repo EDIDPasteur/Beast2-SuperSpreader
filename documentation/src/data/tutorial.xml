@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.7:BDMM-Prime v2.7.2:SuperSpreader v1.0.0:SA v2.1.1" version="2.7">
+
+    <data
+id="tutorial"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_leaf_0_2.545167_NS" spec="Sequence" taxon="leaf_0_2.545167_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_100_2.440860_NS" spec="Sequence" taxon="leaf_100_2.440860_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_101_2.440830_NS" spec="Sequence" taxon="leaf_101_2.440830_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_102_2.435828_NS" spec="Sequence" taxon="leaf_102_2.435828_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_103_2.434591_NS" spec="Sequence" taxon="leaf_103_2.434591_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_104_2.432136_NS" spec="Sequence" taxon="leaf_104_2.432136_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_105_2.430071_NS" spec="Sequence" taxon="leaf_105_2.430071_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_106_2.428059_NS" spec="Sequence" taxon="leaf_106_2.428059_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_107_2.426683_NS" spec="Sequence" taxon="leaf_107_2.426683_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_108_2.426427_NS" spec="Sequence" taxon="leaf_108_2.426427_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_109_2.426113_NS" spec="Sequence" taxon="leaf_109_2.426113_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_10_2.533625_NS" spec="Sequence" taxon="leaf_10_2.533625_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_110_2.424814_NS" spec="Sequence" taxon="leaf_110_2.424814_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_111_2.424775_NS" spec="Sequence" taxon="leaf_111_2.424775_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_112_2.423924_NS" spec="Sequence" taxon="leaf_112_2.423924_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_113_2.422679_NS" spec="Sequence" taxon="leaf_113_2.422679_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_114_2.421888_NS" spec="Sequence" taxon="leaf_114_2.421888_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_115_2.420632_NS" spec="Sequence" taxon="leaf_115_2.420632_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_116_2.420202_NS" spec="Sequence" taxon="leaf_116_2.420202_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_117_2.418835_NS" spec="Sequence" taxon="leaf_117_2.418835_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_118_2.415945_NS" spec="Sequence" taxon="leaf_118_2.415945_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_119_2.412845_NS" spec="Sequence" taxon="leaf_119_2.412845_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_11_2.531377_NS" spec="Sequence" taxon="leaf_11_2.531377_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_120_2.412332_NS" spec="Sequence" taxon="leaf_120_2.412332_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_121_2.412153_SS" spec="Sequence" taxon="leaf_121_2.412153_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_122_2.410515_NS" spec="Sequence" taxon="leaf_122_2.410515_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_123_2.410343_NS" spec="Sequence" taxon="leaf_123_2.410343_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_124_2.410196_NS" spec="Sequence" taxon="leaf_124_2.410196_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_125_2.410118_NS" spec="Sequence" taxon="leaf_125_2.410118_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_126_2.406292_NS" spec="Sequence" taxon="leaf_126_2.406292_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_127_2.406028_NS" spec="Sequence" taxon="leaf_127_2.406028_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_128_2.404980_NS" spec="Sequence" taxon="leaf_128_2.404980_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_129_2.403293_NS" spec="Sequence" taxon="leaf_129_2.403293_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_12_2.531328_NS" spec="Sequence" taxon="leaf_12_2.531328_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_130_2.402528_NS" spec="Sequence" taxon="leaf_130_2.402528_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_131_2.401676_NS" spec="Sequence" taxon="leaf_131_2.401676_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_132_2.400471_NS" spec="Sequence" taxon="leaf_132_2.400471_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_133_2.400060_NS" spec="Sequence" taxon="leaf_133_2.400060_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_134_2.398035_NS" spec="Sequence" taxon="leaf_134_2.398035_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_135_2.396722_NS" spec="Sequence" taxon="leaf_135_2.396722_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_136_2.395846_NS" spec="Sequence" taxon="leaf_136_2.395846_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_137_2.395759_NS" spec="Sequence" taxon="leaf_137_2.395759_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_138_2.394342_NS" spec="Sequence" taxon="leaf_138_2.394342_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_139_2.393643_SS" spec="Sequence" taxon="leaf_139_2.393643_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_13_2.529772_NS" spec="Sequence" taxon="leaf_13_2.529772_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_140_2.391327_NS" spec="Sequence" taxon="leaf_140_2.391327_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_141_2.388276_NS" spec="Sequence" taxon="leaf_141_2.388276_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_142_2.382527_NS" spec="Sequence" taxon="leaf_142_2.382527_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_143_2.381200_NS" spec="Sequence" taxon="leaf_143_2.381200_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_144_2.380964_NS" spec="Sequence" taxon="leaf_144_2.380964_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_145_2.378958_NS" spec="Sequence" taxon="leaf_145_2.378958_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_146_2.376362_NS" spec="Sequence" taxon="leaf_146_2.376362_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_147_2.374794_NS" spec="Sequence" taxon="leaf_147_2.374794_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_148_2.373270_NS" spec="Sequence" taxon="leaf_148_2.373270_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_149_2.371359_NS" spec="Sequence" taxon="leaf_149_2.371359_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_14_2.529741_NS" spec="Sequence" taxon="leaf_14_2.529741_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_150_2.370944_NS" spec="Sequence" taxon="leaf_150_2.370944_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_151_2.370772_NS" spec="Sequence" taxon="leaf_151_2.370772_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_152_2.370486_NS" spec="Sequence" taxon="leaf_152_2.370486_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_153_2.367816_SS" spec="Sequence" taxon="leaf_153_2.367816_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_154_2.365481_NS" spec="Sequence" taxon="leaf_154_2.365481_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_155_2.365379_SS" spec="Sequence" taxon="leaf_155_2.365379_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_156_2.364900_NS" spec="Sequence" taxon="leaf_156_2.364900_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_157_2.364818_NS" spec="Sequence" taxon="leaf_157_2.364818_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_158_2.364518_NS" spec="Sequence" taxon="leaf_158_2.364518_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_159_2.362044_SS" spec="Sequence" taxon="leaf_159_2.362044_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_15_2.527947_NS" spec="Sequence" taxon="leaf_15_2.527947_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_160_2.360704_NS" spec="Sequence" taxon="leaf_160_2.360704_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_161_2.360172_SS" spec="Sequence" taxon="leaf_161_2.360172_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_162_2.358670_SS" spec="Sequence" taxon="leaf_162_2.358670_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_163_2.357650_NS" spec="Sequence" taxon="leaf_163_2.357650_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_164_2.356715_NS" spec="Sequence" taxon="leaf_164_2.356715_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_165_2.356440_NS" spec="Sequence" taxon="leaf_165_2.356440_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_166_2.355850_NS" spec="Sequence" taxon="leaf_166_2.355850_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_167_2.354834_NS" spec="Sequence" taxon="leaf_167_2.354834_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_168_2.353258_NS" spec="Sequence" taxon="leaf_168_2.353258_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_169_2.352500_NS" spec="Sequence" taxon="leaf_169_2.352500_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_16_2.527797_NS" spec="Sequence" taxon="leaf_16_2.527797_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_170_2.351788_NS" spec="Sequence" taxon="leaf_170_2.351788_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_171_2.351297_NS" spec="Sequence" taxon="leaf_171_2.351297_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_172_2.348594_NS" spec="Sequence" taxon="leaf_172_2.348594_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_173_2.348285_NS" spec="Sequence" taxon="leaf_173_2.348285_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_174_2.347079_NS" spec="Sequence" taxon="leaf_174_2.347079_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_175_2.346062_NS" spec="Sequence" taxon="leaf_175_2.346062_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_176_2.340159_SS" spec="Sequence" taxon="leaf_176_2.340159_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_177_2.335590_NS" spec="Sequence" taxon="leaf_177_2.335590_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_178_2.333854_NS" spec="Sequence" taxon="leaf_178_2.333854_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_179_2.333716_NS" spec="Sequence" taxon="leaf_179_2.333716_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_17_2.527734_NS" spec="Sequence" taxon="leaf_17_2.527734_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_180_2.332069_NS" spec="Sequence" taxon="leaf_180_2.332069_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_181_2.331072_NS" spec="Sequence" taxon="leaf_181_2.331072_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_182_2.330843_NS" spec="Sequence" taxon="leaf_182_2.330843_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_183_2.328648_NS" spec="Sequence" taxon="leaf_183_2.328648_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_184_2.327630_NS" spec="Sequence" taxon="leaf_184_2.327630_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_185_2.327169_NS" spec="Sequence" taxon="leaf_185_2.327169_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_186_2.326907_NS" spec="Sequence" taxon="leaf_186_2.326907_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_187_2.325182_NS" spec="Sequence" taxon="leaf_187_2.325182_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_188_2.324492_NS" spec="Sequence" taxon="leaf_188_2.324492_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_189_2.323110_NS" spec="Sequence" taxon="leaf_189_2.323110_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_18_2.527536_NS" spec="Sequence" taxon="leaf_18_2.527536_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_190_2.322808_NS" spec="Sequence" taxon="leaf_190_2.322808_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_191_2.319427_NS" spec="Sequence" taxon="leaf_191_2.319427_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_192_2.318416_SS" spec="Sequence" taxon="leaf_192_2.318416_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_193_2.316030_NS" spec="Sequence" taxon="leaf_193_2.316030_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_194_2.313942_NS" spec="Sequence" taxon="leaf_194_2.313942_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_195_2.313440_NS" spec="Sequence" taxon="leaf_195_2.313440_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_196_2.313324_NS" spec="Sequence" taxon="leaf_196_2.313324_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_197_2.312617_NS" spec="Sequence" taxon="leaf_197_2.312617_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_198_2.312379_NS" spec="Sequence" taxon="leaf_198_2.312379_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_199_2.310477_NS" spec="Sequence" taxon="leaf_199_2.310477_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_19_2.527343_NS" spec="Sequence" taxon="leaf_19_2.527343_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_1_2.544121_NS" spec="Sequence" taxon="leaf_1_2.544121_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_200_2.309885_NS" spec="Sequence" taxon="leaf_200_2.309885_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_201_2.308427_NS" spec="Sequence" taxon="leaf_201_2.308427_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_202_2.305963_NS" spec="Sequence" taxon="leaf_202_2.305963_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_203_2.304402_NS" spec="Sequence" taxon="leaf_203_2.304402_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_204_2.303362_NS" spec="Sequence" taxon="leaf_204_2.303362_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_205_2.300545_NS" spec="Sequence" taxon="leaf_205_2.300545_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_206_2.300116_NS" spec="Sequence" taxon="leaf_206_2.300116_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_207_2.297563_NS" spec="Sequence" taxon="leaf_207_2.297563_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_208_2.297407_NS" spec="Sequence" taxon="leaf_208_2.297407_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_209_2.293989_NS" spec="Sequence" taxon="leaf_209_2.293989_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_20_2.525951_NS" spec="Sequence" taxon="leaf_20_2.525951_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_210_2.291820_NS" spec="Sequence" taxon="leaf_210_2.291820_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_211_2.287119_NS" spec="Sequence" taxon="leaf_211_2.287119_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_212_2.285180_NS" spec="Sequence" taxon="leaf_212_2.285180_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_213_2.284609_NS" spec="Sequence" taxon="leaf_213_2.284609_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_214_2.281207_NS" spec="Sequence" taxon="leaf_214_2.281207_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_215_2.281042_NS" spec="Sequence" taxon="leaf_215_2.281042_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_216_2.279992_NS" spec="Sequence" taxon="leaf_216_2.279992_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_217_2.274737_NS" spec="Sequence" taxon="leaf_217_2.274737_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_218_2.272732_NS" spec="Sequence" taxon="leaf_218_2.272732_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_219_2.266493_NS" spec="Sequence" taxon="leaf_219_2.266493_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_21_2.524199_NS" spec="Sequence" taxon="leaf_21_2.524199_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_220_2.264972_NS" spec="Sequence" taxon="leaf_220_2.264972_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_221_2.264573_NS" spec="Sequence" taxon="leaf_221_2.264573_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_222_2.263550_NS" spec="Sequence" taxon="leaf_222_2.263550_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_223_2.258943_NS" spec="Sequence" taxon="leaf_223_2.258943_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_224_2.258673_NS" spec="Sequence" taxon="leaf_224_2.258673_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_225_2.255797_NS" spec="Sequence" taxon="leaf_225_2.255797_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_226_2.254757_NS" spec="Sequence" taxon="leaf_226_2.254757_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_227_2.253996_NS" spec="Sequence" taxon="leaf_227_2.253996_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_228_2.252900_NS" spec="Sequence" taxon="leaf_228_2.252900_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_229_2.252887_NS" spec="Sequence" taxon="leaf_229_2.252887_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_22_2.523497_NS" spec="Sequence" taxon="leaf_22_2.523497_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_230_2.251465_NS" spec="Sequence" taxon="leaf_230_2.251465_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_231_2.250209_NS" spec="Sequence" taxon="leaf_231_2.250209_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_232_2.250017_NS" spec="Sequence" taxon="leaf_232_2.250017_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_233_2.248656_NS" spec="Sequence" taxon="leaf_233_2.248656_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_234_2.246333_NS" spec="Sequence" taxon="leaf_234_2.246333_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_235_2.246187_NS" spec="Sequence" taxon="leaf_235_2.246187_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_236_2.245599_NS" spec="Sequence" taxon="leaf_236_2.245599_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_237_2.245485_NS" spec="Sequence" taxon="leaf_237_2.245485_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_238_2.244664_NS" spec="Sequence" taxon="leaf_238_2.244664_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_239_2.243599_NS" spec="Sequence" taxon="leaf_239_2.243599_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_23_2.523416_NS" spec="Sequence" taxon="leaf_23_2.523416_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_240_2.242257_NS" spec="Sequence" taxon="leaf_240_2.242257_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_241_2.236227_NS" spec="Sequence" taxon="leaf_241_2.236227_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_242_2.235930_NS" spec="Sequence" taxon="leaf_242_2.235930_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_243_2.234113_NS" spec="Sequence" taxon="leaf_243_2.234113_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_244_2.233147_NS" spec="Sequence" taxon="leaf_244_2.233147_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_245_2.232033_NS" spec="Sequence" taxon="leaf_245_2.232033_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_246_2.230619_NS" spec="Sequence" taxon="leaf_246_2.230619_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_247_2.230587_NS" spec="Sequence" taxon="leaf_247_2.230587_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_248_2.229778_NS" spec="Sequence" taxon="leaf_248_2.229778_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_249_2.229099_NS" spec="Sequence" taxon="leaf_249_2.229099_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_24_2.523139_NS" spec="Sequence" taxon="leaf_24_2.523139_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_250_2.228320_NS" spec="Sequence" taxon="leaf_250_2.228320_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_251_2.225550_NS" spec="Sequence" taxon="leaf_251_2.225550_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_252_2.220633_NS" spec="Sequence" taxon="leaf_252_2.220633_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_253_2.215080_NS" spec="Sequence" taxon="leaf_253_2.215080_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_254_2.213965_NS" spec="Sequence" taxon="leaf_254_2.213965_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_255_2.213204_NS" spec="Sequence" taxon="leaf_255_2.213204_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_256_2.212417_NS" spec="Sequence" taxon="leaf_256_2.212417_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_257_2.211832_NS" spec="Sequence" taxon="leaf_257_2.211832_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_258_2.209707_NS" spec="Sequence" taxon="leaf_258_2.209707_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_259_2.209544_NS" spec="Sequence" taxon="leaf_259_2.209544_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_25_2.522514_NS" spec="Sequence" taxon="leaf_25_2.522514_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_260_2.207855_NS" spec="Sequence" taxon="leaf_260_2.207855_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_261_2.206196_NS" spec="Sequence" taxon="leaf_261_2.206196_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_262_2.205718_NS" spec="Sequence" taxon="leaf_262_2.205718_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_263_2.205368_NS" spec="Sequence" taxon="leaf_263_2.205368_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_264_2.203486_NS" spec="Sequence" taxon="leaf_264_2.203486_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_265_2.201864_NS" spec="Sequence" taxon="leaf_265_2.201864_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_266_2.199607_NS" spec="Sequence" taxon="leaf_266_2.199607_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_267_2.197195_NS" spec="Sequence" taxon="leaf_267_2.197195_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_268_2.196326_NS" spec="Sequence" taxon="leaf_268_2.196326_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_269_2.194111_NS" spec="Sequence" taxon="leaf_269_2.194111_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_26_2.521728_NS" spec="Sequence" taxon="leaf_26_2.521728_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_270_2.191943_NS" spec="Sequence" taxon="leaf_270_2.191943_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_271_2.187307_NS" spec="Sequence" taxon="leaf_271_2.187307_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_272_2.185239_NS" spec="Sequence" taxon="leaf_272_2.185239_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_273_2.182947_NS" spec="Sequence" taxon="leaf_273_2.182947_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_274_2.179617_NS" spec="Sequence" taxon="leaf_274_2.179617_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_275_2.177955_NS" spec="Sequence" taxon="leaf_275_2.177955_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_276_2.176610_NS" spec="Sequence" taxon="leaf_276_2.176610_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_277_2.175922_NS" spec="Sequence" taxon="leaf_277_2.175922_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_278_2.175868_NS" spec="Sequence" taxon="leaf_278_2.175868_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_279_2.175088_NS" spec="Sequence" taxon="leaf_279_2.175088_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_27_2.521713_NS" spec="Sequence" taxon="leaf_27_2.521713_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_280_2.172513_NS" spec="Sequence" taxon="leaf_280_2.172513_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_281_2.171445_NS" spec="Sequence" taxon="leaf_281_2.171445_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_282_2.168161_NS" spec="Sequence" taxon="leaf_282_2.168161_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_283_2.166403_NS" spec="Sequence" taxon="leaf_283_2.166403_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_284_2.165054_NS" spec="Sequence" taxon="leaf_284_2.165054_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_285_2.164551_NS" spec="Sequence" taxon="leaf_285_2.164551_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_286_2.161001_NS" spec="Sequence" taxon="leaf_286_2.161001_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_287_2.160198_NS" spec="Sequence" taxon="leaf_287_2.160198_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_288_2.159226_NS" spec="Sequence" taxon="leaf_288_2.159226_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_289_2.158706_NS" spec="Sequence" taxon="leaf_289_2.158706_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_28_2.521431_NS" spec="Sequence" taxon="leaf_28_2.521431_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_290_2.153142_NS" spec="Sequence" taxon="leaf_290_2.153142_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_291_2.150538_SS" spec="Sequence" taxon="leaf_291_2.150538_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_292_2.149940_SS" spec="Sequence" taxon="leaf_292_2.149940_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_293_2.149248_NS" spec="Sequence" taxon="leaf_293_2.149248_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_294_2.148671_NS" spec="Sequence" taxon="leaf_294_2.148671_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_295_2.148050_NS" spec="Sequence" taxon="leaf_295_2.148050_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_296_2.139256_NS" spec="Sequence" taxon="leaf_296_2.139256_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_297_2.138792_NS" spec="Sequence" taxon="leaf_297_2.138792_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_298_2.138329_NS" spec="Sequence" taxon="leaf_298_2.138329_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_299_2.137706_NS" spec="Sequence" taxon="leaf_299_2.137706_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_29_2.520167_NS" spec="Sequence" taxon="leaf_29_2.520167_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_2_2.542547_NS" spec="Sequence" taxon="leaf_2_2.542547_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_300_2.134528_NS" spec="Sequence" taxon="leaf_300_2.134528_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_301_2.129556_NS" spec="Sequence" taxon="leaf_301_2.129556_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_302_2.128703_NS" spec="Sequence" taxon="leaf_302_2.128703_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_303_2.126320_NS" spec="Sequence" taxon="leaf_303_2.126320_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_304_2.124334_NS" spec="Sequence" taxon="leaf_304_2.124334_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_305_2.120670_SS" spec="Sequence" taxon="leaf_305_2.120670_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_306_2.119276_NS" spec="Sequence" taxon="leaf_306_2.119276_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_307_2.116637_SS" spec="Sequence" taxon="leaf_307_2.116637_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_308_2.113848_NS" spec="Sequence" taxon="leaf_308_2.113848_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_309_2.112619_NS" spec="Sequence" taxon="leaf_309_2.112619_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_30_2.519928_NS" spec="Sequence" taxon="leaf_30_2.519928_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_310_2.109068_NS" spec="Sequence" taxon="leaf_310_2.109068_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_311_2.108132_NS" spec="Sequence" taxon="leaf_311_2.108132_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_312_2.099325_NS" spec="Sequence" taxon="leaf_312_2.099325_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_313_2.097327_NS" spec="Sequence" taxon="leaf_313_2.097327_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_314_2.093476_NS" spec="Sequence" taxon="leaf_314_2.093476_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_315_2.082851_NS" spec="Sequence" taxon="leaf_315_2.082851_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_316_2.078771_NS" spec="Sequence" taxon="leaf_316_2.078771_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_317_2.077522_NS" spec="Sequence" taxon="leaf_317_2.077522_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_318_2.076314_NS" spec="Sequence" taxon="leaf_318_2.076314_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_319_2.072651_NS" spec="Sequence" taxon="leaf_319_2.072651_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_31_2.518745_NS" spec="Sequence" taxon="leaf_31_2.518745_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_320_2.069981_NS" spec="Sequence" taxon="leaf_320_2.069981_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_321_2.068422_NS" spec="Sequence" taxon="leaf_321_2.068422_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_322_2.066522_NS" spec="Sequence" taxon="leaf_322_2.066522_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_323_2.065528_NS" spec="Sequence" taxon="leaf_323_2.065528_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_324_2.060139_NS" spec="Sequence" taxon="leaf_324_2.060139_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_325_2.058940_NS" spec="Sequence" taxon="leaf_325_2.058940_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_326_2.056516_NS" spec="Sequence" taxon="leaf_326_2.056516_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_327_2.054029_NS" spec="Sequence" taxon="leaf_327_2.054029_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_328_2.053585_NS" spec="Sequence" taxon="leaf_328_2.053585_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_329_2.052078_NS" spec="Sequence" taxon="leaf_329_2.052078_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_32_2.518104_NS" spec="Sequence" taxon="leaf_32_2.518104_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_330_2.048599_NS" spec="Sequence" taxon="leaf_330_2.048599_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_331_2.045791_NS" spec="Sequence" taxon="leaf_331_2.045791_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_332_2.045760_NS" spec="Sequence" taxon="leaf_332_2.045760_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_333_2.042114_NS" spec="Sequence" taxon="leaf_333_2.042114_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_334_2.041190_NS" spec="Sequence" taxon="leaf_334_2.041190_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_335_2.037680_NS" spec="Sequence" taxon="leaf_335_2.037680_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_336_2.037146_NS" spec="Sequence" taxon="leaf_336_2.037146_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_337_2.031465_NS" spec="Sequence" taxon="leaf_337_2.031465_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_338_2.030350_NS" spec="Sequence" taxon="leaf_338_2.030350_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_339_2.027874_NS" spec="Sequence" taxon="leaf_339_2.027874_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_33_2.517224_NS" spec="Sequence" taxon="leaf_33_2.517224_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_340_2.027285_NS" spec="Sequence" taxon="leaf_340_2.027285_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_341_2.024382_NS" spec="Sequence" taxon="leaf_341_2.024382_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_342_2.023572_SS" spec="Sequence" taxon="leaf_342_2.023572_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_343_2.021793_NS" spec="Sequence" taxon="leaf_343_2.021793_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_344_2.019235_NS" spec="Sequence" taxon="leaf_344_2.019235_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_345_2.016177_NS" spec="Sequence" taxon="leaf_345_2.016177_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_346_2.015260_NS" spec="Sequence" taxon="leaf_346_2.015260_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_347_2.007981_NS" spec="Sequence" taxon="leaf_347_2.007981_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_348_2.006232_NS" spec="Sequence" taxon="leaf_348_2.006232_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_349_2.005809_NS" spec="Sequence" taxon="leaf_349_2.005809_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_34_2.517221_NS" spec="Sequence" taxon="leaf_34_2.517221_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_350_2.003837_NS" spec="Sequence" taxon="leaf_350_2.003837_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_351_2.003087_NS" spec="Sequence" taxon="leaf_351_2.003087_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_352_2.002976_NS" spec="Sequence" taxon="leaf_352_2.002976_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_353_2.001007_NS" spec="Sequence" taxon="leaf_353_2.001007_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_354_1.996533_NS" spec="Sequence" taxon="leaf_354_1.996533_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_355_1.994769_NS" spec="Sequence" taxon="leaf_355_1.994769_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_356_1.986881_NS" spec="Sequence" taxon="leaf_356_1.986881_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_357_1.985736_NS" spec="Sequence" taxon="leaf_357_1.985736_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_358_1.985156_NS" spec="Sequence" taxon="leaf_358_1.985156_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_359_1.979851_NS" spec="Sequence" taxon="leaf_359_1.979851_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_35_2.516253_NS" spec="Sequence" taxon="leaf_35_2.516253_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_360_1.978518_SS" spec="Sequence" taxon="leaf_360_1.978518_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_361_1.976792_NS" spec="Sequence" taxon="leaf_361_1.976792_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_362_1.973048_NS" spec="Sequence" taxon="leaf_362_1.973048_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_363_1.969868_NS" spec="Sequence" taxon="leaf_363_1.969868_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_364_1.962120_NS" spec="Sequence" taxon="leaf_364_1.962120_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_365_1.960167_NS" spec="Sequence" taxon="leaf_365_1.960167_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_366_1.959071_NS" spec="Sequence" taxon="leaf_366_1.959071_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_367_1.949903_NS" spec="Sequence" taxon="leaf_367_1.949903_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_368_1.946256_NS" spec="Sequence" taxon="leaf_368_1.946256_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_369_1.944414_NS" spec="Sequence" taxon="leaf_369_1.944414_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_36_2.515019_NS" spec="Sequence" taxon="leaf_36_2.515019_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_370_1.939738_NS" spec="Sequence" taxon="leaf_370_1.939738_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_371_1.936789_NS" spec="Sequence" taxon="leaf_371_1.936789_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_372_1.933683_NS" spec="Sequence" taxon="leaf_372_1.933683_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_373_1.932307_NS" spec="Sequence" taxon="leaf_373_1.932307_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_374_1.929510_NS" spec="Sequence" taxon="leaf_374_1.929510_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_375_1.925656_NS" spec="Sequence" taxon="leaf_375_1.925656_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_376_1.924895_NS" spec="Sequence" taxon="leaf_376_1.924895_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_377_1.923083_NS" spec="Sequence" taxon="leaf_377_1.923083_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_378_1.920629_NS" spec="Sequence" taxon="leaf_378_1.920629_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_379_1.918155_SS" spec="Sequence" taxon="leaf_379_1.918155_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_37_2.514926_NS" spec="Sequence" taxon="leaf_37_2.514926_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_380_1.914626_NS" spec="Sequence" taxon="leaf_380_1.914626_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_381_1.912437_SS" spec="Sequence" taxon="leaf_381_1.912437_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_382_1.909102_NS" spec="Sequence" taxon="leaf_382_1.909102_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_383_1.906186_NS" spec="Sequence" taxon="leaf_383_1.906186_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_384_1.902492_NS" spec="Sequence" taxon="leaf_384_1.902492_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_385_1.901686_NS" spec="Sequence" taxon="leaf_385_1.901686_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_386_1.898824_NS" spec="Sequence" taxon="leaf_386_1.898824_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_387_1.897037_NS" spec="Sequence" taxon="leaf_387_1.897037_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_388_1.887323_NS" spec="Sequence" taxon="leaf_388_1.887323_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_389_1.884262_SS" spec="Sequence" taxon="leaf_389_1.884262_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_38_2.514618_NS" spec="Sequence" taxon="leaf_38_2.514618_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_390_1.883707_NS" spec="Sequence" taxon="leaf_390_1.883707_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_391_1.876699_NS" spec="Sequence" taxon="leaf_391_1.876699_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_392_1.870353_NS" spec="Sequence" taxon="leaf_392_1.870353_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_393_1.869614_NS" spec="Sequence" taxon="leaf_393_1.869614_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_394_1.857136_NS" spec="Sequence" taxon="leaf_394_1.857136_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_395_1.856106_NS" spec="Sequence" taxon="leaf_395_1.856106_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_396_1.851409_NS" spec="Sequence" taxon="leaf_396_1.851409_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_397_1.851296_NS" spec="Sequence" taxon="leaf_397_1.851296_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_398_1.850659_NS" spec="Sequence" taxon="leaf_398_1.850659_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_399_1.850541_NS" spec="Sequence" taxon="leaf_399_1.850541_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_39_2.512806_NS" spec="Sequence" taxon="leaf_39_2.512806_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_3_2.542004_NS" spec="Sequence" taxon="leaf_3_2.542004_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_400_1.847839_NS" spec="Sequence" taxon="leaf_400_1.847839_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_401_1.844957_NS" spec="Sequence" taxon="leaf_401_1.844957_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_402_1.841452_NS" spec="Sequence" taxon="leaf_402_1.841452_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_403_1.831651_NS" spec="Sequence" taxon="leaf_403_1.831651_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_404_1.830106_NS" spec="Sequence" taxon="leaf_404_1.830106_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_405_1.827007_NS" spec="Sequence" taxon="leaf_405_1.827007_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_406_1.821815_NS" spec="Sequence" taxon="leaf_406_1.821815_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_407_1.814624_NS" spec="Sequence" taxon="leaf_407_1.814624_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_408_1.804275_NS" spec="Sequence" taxon="leaf_408_1.804275_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_409_1.803859_NS" spec="Sequence" taxon="leaf_409_1.803859_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_40_2.511625_NS" spec="Sequence" taxon="leaf_40_2.511625_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_410_1.802176_NS" spec="Sequence" taxon="leaf_410_1.802176_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_411_1.796049_NS" spec="Sequence" taxon="leaf_411_1.796049_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_412_1.785841_NS" spec="Sequence" taxon="leaf_412_1.785841_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_413_1.771103_NS" spec="Sequence" taxon="leaf_413_1.771103_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_414_1.766250_NS" spec="Sequence" taxon="leaf_414_1.766250_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_415_1.756927_NS" spec="Sequence" taxon="leaf_415_1.756927_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_416_1.755889_NS" spec="Sequence" taxon="leaf_416_1.755889_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_417_1.749099_SS" spec="Sequence" taxon="leaf_417_1.749099_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_418_1.746018_NS" spec="Sequence" taxon="leaf_418_1.746018_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_419_1.744346_NS" spec="Sequence" taxon="leaf_419_1.744346_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_41_2.510287_NS" spec="Sequence" taxon="leaf_41_2.510287_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_420_1.735302_NS" spec="Sequence" taxon="leaf_420_1.735302_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_421_1.729334_NS" spec="Sequence" taxon="leaf_421_1.729334_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_422_1.723301_NS" spec="Sequence" taxon="leaf_422_1.723301_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_423_1.719075_SS" spec="Sequence" taxon="leaf_423_1.719075_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_424_1.714851_NS" spec="Sequence" taxon="leaf_424_1.714851_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_425_1.707571_NS" spec="Sequence" taxon="leaf_425_1.707571_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_426_1.693503_NS" spec="Sequence" taxon="leaf_426_1.693503_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_427_1.688638_NS" spec="Sequence" taxon="leaf_427_1.688638_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_428_1.688076_NS" spec="Sequence" taxon="leaf_428_1.688076_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_429_1.687324_NS" spec="Sequence" taxon="leaf_429_1.687324_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_42_2.509307_NS" spec="Sequence" taxon="leaf_42_2.509307_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_430_1.679451_NS" spec="Sequence" taxon="leaf_430_1.679451_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_431_1.677798_NS" spec="Sequence" taxon="leaf_431_1.677798_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_432_1.672305_NS" spec="Sequence" taxon="leaf_432_1.672305_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_433_1.667243_NS" spec="Sequence" taxon="leaf_433_1.667243_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_434_1.664482_SS" spec="Sequence" taxon="leaf_434_1.664482_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_435_1.661841_NS" spec="Sequence" taxon="leaf_435_1.661841_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_436_1.657079_NS" spec="Sequence" taxon="leaf_436_1.657079_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_437_1.628115_NS" spec="Sequence" taxon="leaf_437_1.628115_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_438_1.625542_NS" spec="Sequence" taxon="leaf_438_1.625542_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_439_1.619430_NS" spec="Sequence" taxon="leaf_439_1.619430_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_43_2.509225_NS" spec="Sequence" taxon="leaf_43_2.509225_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_440_1.611687_NS" spec="Sequence" taxon="leaf_440_1.611687_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_441_1.608937_NS" spec="Sequence" taxon="leaf_441_1.608937_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_442_1.593176_NS" spec="Sequence" taxon="leaf_442_1.593176_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_443_1.576535_NS" spec="Sequence" taxon="leaf_443_1.576535_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_444_1.575868_NS" spec="Sequence" taxon="leaf_444_1.575868_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_445_1.567652_NS" spec="Sequence" taxon="leaf_445_1.567652_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_446_1.564143_SS" spec="Sequence" taxon="leaf_446_1.564143_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_447_1.555264_NS" spec="Sequence" taxon="leaf_447_1.555264_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_448_1.553172_NS" spec="Sequence" taxon="leaf_448_1.553172_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_449_1.549940_NS" spec="Sequence" taxon="leaf_449_1.549940_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_44_2.507893_NS" spec="Sequence" taxon="leaf_44_2.507893_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_450_1.530072_NS" spec="Sequence" taxon="leaf_450_1.530072_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_451_1.529948_SS" spec="Sequence" taxon="leaf_451_1.529948_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_452_1.511821_NS" spec="Sequence" taxon="leaf_452_1.511821_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_453_1.499259_NS" spec="Sequence" taxon="leaf_453_1.499259_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_454_1.492254_NS" spec="Sequence" taxon="leaf_454_1.492254_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_455_1.490434_NS" spec="Sequence" taxon="leaf_455_1.490434_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_456_1.487756_NS" spec="Sequence" taxon="leaf_456_1.487756_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_457_1.463729_NS" spec="Sequence" taxon="leaf_457_1.463729_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_458_1.443893_NS" spec="Sequence" taxon="leaf_458_1.443893_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_459_1.430707_NS" spec="Sequence" taxon="leaf_459_1.430707_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_45_2.505956_SS" spec="Sequence" taxon="leaf_45_2.505956_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_460_1.424592_NS" spec="Sequence" taxon="leaf_460_1.424592_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_461_1.414834_NS" spec="Sequence" taxon="leaf_461_1.414834_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_462_1.401691_NS" spec="Sequence" taxon="leaf_462_1.401691_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_463_1.382776_NS" spec="Sequence" taxon="leaf_463_1.382776_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_464_1.380089_NS" spec="Sequence" taxon="leaf_464_1.380089_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_465_1.368819_NS" spec="Sequence" taxon="leaf_465_1.368819_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_466_1.365909_NS" spec="Sequence" taxon="leaf_466_1.365909_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_467_1.359518_NS" spec="Sequence" taxon="leaf_467_1.359518_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_468_1.335865_NS" spec="Sequence" taxon="leaf_468_1.335865_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_469_1.308172_NS" spec="Sequence" taxon="leaf_469_1.308172_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_46_2.505833_NS" spec="Sequence" taxon="leaf_46_2.505833_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_470_1.293558_NS" spec="Sequence" taxon="leaf_470_1.293558_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_471_1.289525_NS" spec="Sequence" taxon="leaf_471_1.289525_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_472_1.282779_NS" spec="Sequence" taxon="leaf_472_1.282779_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_473_1.278562_NS" spec="Sequence" taxon="leaf_473_1.278562_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_474_1.276844_SS" spec="Sequence" taxon="leaf_474_1.276844_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_475_1.268849_NS" spec="Sequence" taxon="leaf_475_1.268849_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_476_1.238221_NS" spec="Sequence" taxon="leaf_476_1.238221_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_477_1.224449_NS" spec="Sequence" taxon="leaf_477_1.224449_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_478_1.190068_NS" spec="Sequence" taxon="leaf_478_1.190068_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_479_1.149597_NS" spec="Sequence" taxon="leaf_479_1.149597_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_47_2.504477_NS" spec="Sequence" taxon="leaf_47_2.504477_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_480_1.138990_NS" spec="Sequence" taxon="leaf_480_1.138990_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_481_1.112186_NS" spec="Sequence" taxon="leaf_481_1.112186_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_482_1.070855_NS" spec="Sequence" taxon="leaf_482_1.070855_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_483_1.017245_NS" spec="Sequence" taxon="leaf_483_1.017245_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_484_0.985162_NS" spec="Sequence" taxon="leaf_484_0.985162_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_485_0.955462_NS" spec="Sequence" taxon="leaf_485_0.955462_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_486_0.880618_NS" spec="Sequence" taxon="leaf_486_0.880618_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_487_0.832315_NS" spec="Sequence" taxon="leaf_487_0.832315_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_488_0.816669_NS" spec="Sequence" taxon="leaf_488_0.816669_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_489_0.816052_NS" spec="Sequence" taxon="leaf_489_0.816052_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_48_2.504068_NS" spec="Sequence" taxon="leaf_48_2.504068_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_490_0.809123_NS" spec="Sequence" taxon="leaf_490_0.809123_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_491_0.769592_NS" spec="Sequence" taxon="leaf_491_0.769592_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_492_0.721662_NS" spec="Sequence" taxon="leaf_492_0.721662_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_493_0.701572_NS" spec="Sequence" taxon="leaf_493_0.701572_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_494_0.654721_NS" spec="Sequence" taxon="leaf_494_0.654721_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_495_0.630770_NS" spec="Sequence" taxon="leaf_495_0.630770_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_496_0.561230_NS" spec="Sequence" taxon="leaf_496_0.561230_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_497_0.493630_NS" spec="Sequence" taxon="leaf_497_0.493630_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_498_0.438647_NS" spec="Sequence" taxon="leaf_498_0.438647_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_499_0.287874_NS" spec="Sequence" taxon="leaf_499_0.287874_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_49_2.503791_NS" spec="Sequence" taxon="leaf_49_2.503791_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_4_2.540973_SS" spec="Sequence" taxon="leaf_4_2.540973_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_50_2.503145_NS" spec="Sequence" taxon="leaf_50_2.503145_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_51_2.502808_NS" spec="Sequence" taxon="leaf_51_2.502808_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_52_2.502272_NS" spec="Sequence" taxon="leaf_52_2.502272_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_53_2.501458_NS" spec="Sequence" taxon="leaf_53_2.501458_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_54_2.501194_NS" spec="Sequence" taxon="leaf_54_2.501194_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_55_2.500521_NS" spec="Sequence" taxon="leaf_55_2.500521_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_56_2.500190_NS" spec="Sequence" taxon="leaf_56_2.500190_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_57_2.499722_NS" spec="Sequence" taxon="leaf_57_2.499722_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_58_2.498580_SS" spec="Sequence" taxon="leaf_58_2.498580_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_59_2.498014_NS" spec="Sequence" taxon="leaf_59_2.498014_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_5_2.539807_NS" spec="Sequence" taxon="leaf_5_2.539807_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_60_2.495682_NS" spec="Sequence" taxon="leaf_60_2.495682_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_61_2.495287_NS" spec="Sequence" taxon="leaf_61_2.495287_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_62_2.494587_NS" spec="Sequence" taxon="leaf_62_2.494587_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_63_2.491747_NS" spec="Sequence" taxon="leaf_63_2.491747_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_64_2.490430_NS" spec="Sequence" taxon="leaf_64_2.490430_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_65_2.490349_NS" spec="Sequence" taxon="leaf_65_2.490349_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_66_2.487459_NS" spec="Sequence" taxon="leaf_66_2.487459_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_67_2.487270_SS" spec="Sequence" taxon="leaf_67_2.487270_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_68_2.483970_NS" spec="Sequence" taxon="leaf_68_2.483970_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_69_2.483432_NS" spec="Sequence" taxon="leaf_69_2.483432_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_6_2.539032_NS" spec="Sequence" taxon="leaf_6_2.539032_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_70_2.482317_NS" spec="Sequence" taxon="leaf_70_2.482317_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_71_2.482178_NS" spec="Sequence" taxon="leaf_71_2.482178_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_72_2.481902_NS" spec="Sequence" taxon="leaf_72_2.481902_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_73_2.479189_NS" spec="Sequence" taxon="leaf_73_2.479189_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_74_2.475301_NS" spec="Sequence" taxon="leaf_74_2.475301_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_75_2.475027_NS" spec="Sequence" taxon="leaf_75_2.475027_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_76_2.474047_NS" spec="Sequence" taxon="leaf_76_2.474047_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_77_2.472186_NS" spec="Sequence" taxon="leaf_77_2.472186_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_78_2.471001_NS" spec="Sequence" taxon="leaf_78_2.471001_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_79_2.470322_NS" spec="Sequence" taxon="leaf_79_2.470322_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_7_2.538077_NS" spec="Sequence" taxon="leaf_7_2.538077_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_80_2.469241_NS" spec="Sequence" taxon="leaf_80_2.469241_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_81_2.468946_NS" spec="Sequence" taxon="leaf_81_2.468946_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_82_2.468126_NS" spec="Sequence" taxon="leaf_82_2.468126_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_83_2.468067_NS" spec="Sequence" taxon="leaf_83_2.468067_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_84_2.467525_NS" spec="Sequence" taxon="leaf_84_2.467525_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_85_2.462917_NS" spec="Sequence" taxon="leaf_85_2.462917_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_86_2.461724_NS" spec="Sequence" taxon="leaf_86_2.461724_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_87_2.461240_NS" spec="Sequence" taxon="leaf_87_2.461240_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_88_2.460492_NS" spec="Sequence" taxon="leaf_88_2.460492_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_89_2.459847_NS" spec="Sequence" taxon="leaf_89_2.459847_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_8_2.537203_NS" spec="Sequence" taxon="leaf_8_2.537203_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_90_2.459608_NS" spec="Sequence" taxon="leaf_90_2.459608_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_91_2.458590_NS" spec="Sequence" taxon="leaf_91_2.458590_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_92_2.458511_NS" spec="Sequence" taxon="leaf_92_2.458511_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_93_2.457586_NS" spec="Sequence" taxon="leaf_93_2.457586_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_94_2.455814_SS" spec="Sequence" taxon="leaf_94_2.455814_SS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_95_2.452034_NS" spec="Sequence" taxon="leaf_95_2.452034_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_96_2.450670_NS" spec="Sequence" taxon="leaf_96_2.450670_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_97_2.448404_NS" spec="Sequence" taxon="leaf_97_2.448404_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_98_2.447353_NS" spec="Sequence" taxon="leaf_98_2.447353_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_99_2.443270_NS" spec="Sequence" taxon="leaf_99_2.443270_NS" totalcount="4" value="NNN"/>
+        <sequence id="seq_leaf_9_2.536554_NS" spec="Sequence" taxon="leaf_9_2.536554_NS" totalcount="4" value="NNN"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:tutorial" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <trait id="dateTrait.t:tutorial" spec="beast.base.evolution.tree.TraitSet" traitname="date" value="leaf_0_2.545167_NS=2.545167,leaf_125_2.410118_NS=2.410118,leaf_20_2.525951_NS=2.525951,leaf_121_2.412153_SS=2.412153,leaf_11_2.531377_NS=2.531377,leaf_201_2.308427_NS=2.308427,leaf_246_2.230619_NS=2.230619,leaf_93_2.457586_NS=2.457586,leaf_27_2.521713_NS=2.521713,leaf_55_2.500521_NS=2.500521,leaf_83_2.468067_NS=2.468067,leaf_216_2.279992_NS=2.279992,leaf_196_2.313324_NS=2.313324,leaf_256_2.212417_NS=2.212417,leaf_68_2.483970_NS=2.483970,leaf_75_2.475027_NS=2.475027,leaf_115_2.420632_NS=2.420632,leaf_120_2.412332_NS=2.412332,leaf_229_2.252887_NS=2.252887,leaf_136_2.395846_NS=2.395846,leaf_130_2.402528_NS=2.402528,leaf_142_2.382527_NS=2.382527,leaf_171_2.351297_NS=2.351297,leaf_168_2.353258_NS=2.353258,leaf_347_2.007981_NS=2.007981,leaf_250_2.228320_NS=2.228320,leaf_175_2.346062_NS=2.346062,leaf_217_2.274737_NS=2.274737,leaf_359_1.979851_NS=1.979851,leaf_205_2.300545_NS=2.300545,leaf_349_2.005809_NS=2.005809,leaf_420_1.735302_NS=1.735302,leaf_379_1.918155_SS=1.918155,leaf_426_1.693503_NS=1.693503,leaf_463_1.382776_NS=1.382776,leaf_5_2.539807_NS=2.539807,leaf_87_2.461240_NS=2.461240,leaf_176_2.340159_SS=2.340159,leaf_194_2.313942_NS=2.313942,leaf_389_1.884262_SS=1.884262,leaf_112_2.423924_NS=2.423924,leaf_110_2.424814_NS=2.424814,leaf_149_2.371359_NS=2.371359,leaf_317_2.077522_NS=2.077522,leaf_424_1.714851_NS=1.714851,leaf_101_2.440830_NS=2.440830,leaf_227_2.253996_NS=2.253996,leaf_249_2.229099_NS=2.229099,leaf_292_2.149940_SS=2.149940,leaf_104_2.432136_NS=2.432136,leaf_400_1.847839_NS=1.847839,leaf_446_1.564143_SS=1.564143,leaf_429_1.687324_NS=1.687324,leaf_436_1.657079_NS=1.657079,leaf_465_1.368819_NS=1.368819,leaf_6_2.539032_NS=2.539032,leaf_59_2.498014_NS=2.498014,leaf_182_2.330843_NS=2.330843,leaf_253_2.215080_NS=2.215080,leaf_342_2.023572_SS=2.023572,leaf_335_2.037680_NS=2.037680,leaf_31_2.518745_NS=2.518745,leaf_151_2.370772_NS=2.370772,leaf_173_2.348285_NS=2.348285,leaf_316_2.078771_NS=2.078771,leaf_86_2.461724_NS=2.461724,leaf_272_2.185239_NS=2.185239,leaf_96_2.450670_NS=2.450670,leaf_204_2.303362_NS=2.303362,leaf_51_2.502808_NS=2.502808,leaf_79_2.470322_NS=2.470322,leaf_84_2.467525_NS=2.467525,leaf_162_2.358670_SS=2.358670,leaf_137_2.395759_NS=2.395759,leaf_184_2.327630_NS=2.327630,leaf_245_2.232033_NS=2.232033,leaf_421_1.729334_NS=1.729334,leaf_322_2.066522_NS=2.066522,leaf_234_2.246333_NS=2.246333,leaf_415_1.756927_NS=1.756927,leaf_418_1.746018_NS=1.746018,leaf_471_1.289525_NS=1.289525,leaf_479_1.149597_NS=1.149597,leaf_494_0.654721_NS=0.654721,leaf_1_2.544121_NS=2.544121,leaf_78_2.471001_NS=2.471001,leaf_181_2.331072_NS=2.331072,leaf_100_2.440860_NS=2.440860,leaf_179_2.333716_NS=2.333716,leaf_193_2.316030_NS=2.316030,leaf_296_2.139256_NS=2.139256,leaf_271_2.187307_NS=2.187307,leaf_362_1.973048_NS=1.973048,leaf_64_2.490430_NS=2.490430,leaf_287_2.160198_NS=2.160198,leaf_443_1.576535_NS=1.576535,leaf_452_1.511821_NS=1.511821,leaf_357_1.985736_NS=1.985736,leaf_329_2.052078_NS=2.052078,leaf_330_2.048599_NS=2.048599,leaf_422_1.723301_NS=1.723301,leaf_7_2.538077_NS=2.538077,leaf_15_2.527947_NS=2.527947,leaf_29_2.520167_NS=2.520167,leaf_198_2.312379_NS=2.312379,leaf_22_2.523497_NS=2.523497,leaf_114_2.421888_NS=2.421888,leaf_143_2.381200_NS=2.381200,leaf_74_2.475301_NS=2.475301,leaf_189_2.323110_NS=2.323110,leaf_223_2.258943_NS=2.258943,leaf_321_2.068422_NS=2.068422,leaf_53_2.501458_NS=2.501458,leaf_183_2.328648_NS=2.328648,leaf_98_2.447353_NS=2.447353,leaf_409_1.803859_NS=1.803859,leaf_308_2.113848_NS=2.113848,leaf_397_1.851296_NS=1.851296,leaf_133_2.400060_NS=2.400060,leaf_299_2.137706_NS=2.137706,leaf_384_1.902492_NS=1.902492,leaf_178_2.333854_NS=2.333854,leaf_190_2.322808_NS=2.322808,leaf_203_2.304402_NS=2.304402,leaf_236_2.245599_NS=2.245599,leaf_42_2.509307_NS=2.509307,leaf_432_1.672305_NS=1.672305,leaf_310_2.109068_NS=2.109068,leaf_315_2.082851_NS=2.082851,leaf_3_2.542004_NS=2.542004,leaf_24_2.523139_NS=2.523139,leaf_49_2.503791_NS=2.503791,leaf_153_2.367816_SS=2.367816,leaf_289_2.158706_NS=2.158706,leaf_109_2.426113_NS=2.426113,leaf_277_2.175922_NS=2.175922,leaf_210_2.291820_NS=2.291820,leaf_211_2.287119_NS=2.287119,leaf_257_2.211832_NS=2.211832,leaf_276_2.176610_NS=2.176610,leaf_214_2.281207_NS=2.281207,leaf_393_1.869614_NS=1.869614,leaf_16_2.527797_NS=2.527797,leaf_34_2.517221_NS=2.517221,leaf_258_2.209707_NS=2.209707,leaf_237_2.245485_NS=2.245485,leaf_41_2.510287_NS=2.510287,leaf_157_2.364818_NS=2.364818,leaf_215_2.281042_NS=2.281042,leaf_300_2.134528_NS=2.134528,leaf_107_2.426683_NS=2.426683,leaf_242_2.235930_NS=2.235930,leaf_390_1.883707_NS=1.883707,leaf_338_2.030350_NS=2.030350,leaf_17_2.527734_NS=2.527734,leaf_19_2.527343_NS=2.527343,leaf_39_2.512806_NS=2.512806,leaf_306_2.119276_NS=2.119276,leaf_52_2.502272_NS=2.502272,leaf_187_2.325182_NS=2.325182,leaf_208_2.297407_NS=2.297407,leaf_231_2.250209_NS=2.250209,leaf_40_2.511625_NS=2.511625,leaf_364_1.962120_NS=1.962120,leaf_368_1.946256_NS=1.946256,leaf_382_1.909102_NS=1.909102,leaf_386_1.898824_NS=1.898824,leaf_374_1.929510_NS=1.929510,leaf_174_2.347079_NS=2.347079,leaf_392_1.870353_NS=1.870353,leaf_312_2.099325_NS=2.099325,leaf_126_2.406292_NS=2.406292,leaf_286_2.161001_NS=2.161001,leaf_218_2.272732_NS=2.272732,leaf_158_2.364518_NS=2.364518,leaf_408_1.804275_NS=1.804275,leaf_423_1.719075_SS=1.719075,leaf_77_2.472186_NS=2.472186,leaf_124_2.410196_NS=2.410196,leaf_134_2.398035_NS=2.398035,leaf_139_2.393643_SS=2.393643,leaf_251_2.225550_NS=2.225550,leaf_140_2.391327_NS=2.391327,leaf_156_2.364900_NS=2.364900,leaf_192_2.318416_SS=2.318416,leaf_200_2.309885_NS=2.309885,leaf_169_2.352500_NS=2.352500,leaf_280_2.172513_NS=2.172513,leaf_167_2.354834_NS=2.354834,leaf_370_1.939738_NS=1.939738,leaf_410_1.802176_NS=1.802176,leaf_331_2.045791_NS=2.045791,leaf_72_2.481902_NS=2.481902,leaf_263_2.205368_NS=2.205368,leaf_284_2.165054_NS=2.165054,leaf_290_2.153142_NS=2.153142,leaf_439_1.619430_NS=1.619430,leaf_309_2.112619_NS=2.112619,leaf_375_1.925656_NS=1.925656,leaf_451_1.529948_SS=1.529948,leaf_470_1.293558_NS=1.293558,leaf_467_1.359518_NS=1.359518,leaf_159_2.362044_SS=2.362044,leaf_437_1.628115_NS=1.628115,leaf_449_1.549940_NS=1.549940,leaf_401_1.844957_NS=1.844957,leaf_395_1.856106_NS=1.856106,leaf_4_2.540973_SS=2.540973,leaf_65_2.490349_NS=2.490349,leaf_88_2.460492_NS=2.460492,leaf_54_2.501194_NS=2.501194,leaf_260_2.207855_NS=2.207855,leaf_288_2.159226_NS=2.159226,leaf_50_2.503145_NS=2.503145,leaf_252_2.220633_NS=2.220633,leaf_90_2.459608_NS=2.459608,leaf_131_2.401676_NS=2.401676,leaf_333_2.042114_NS=2.042114,leaf_244_2.233147_NS=2.233147,leaf_361_1.976792_NS=1.976792,leaf_388_1.887323_NS=1.887323,leaf_247_2.230587_NS=2.230587,leaf_94_2.455814_SS=2.455814,leaf_212_2.285180_NS=2.285180,leaf_313_2.097327_NS=2.097327,leaf_337_2.031465_NS=2.031465,leaf_185_2.327169_NS=2.327169,leaf_270_2.191943_NS=2.191943,leaf_188_2.324492_NS=2.324492,leaf_248_2.229778_NS=2.229778,leaf_458_1.443893_NS=1.443893,leaf_95_2.452034_NS=2.452034,leaf_144_2.380964_NS=2.380964,leaf_303_2.126320_NS=2.126320,leaf_213_2.284609_NS=2.284609,leaf_334_2.041190_NS=2.041190,leaf_232_2.250017_NS=2.250017,leaf_261_2.206196_NS=2.206196,leaf_369_1.944414_NS=1.944414,leaf_354_1.996533_NS=1.996533,leaf_434_1.664482_SS=1.664482,leaf_385_1.901686_NS=1.901686,leaf_220_2.264972_NS=2.264972,leaf_345_2.016177_NS=2.016177,leaf_350_2.003837_NS=2.003837,leaf_301_2.129556_NS=2.129556,leaf_404_1.830106_NS=1.830106,leaf_332_2.045760_NS=2.045760,leaf_336_2.037146_NS=2.037146,leaf_275_2.177955_NS=2.177955,leaf_381_1.912437_SS=1.912437,leaf_326_2.056516_NS=2.056516,leaf_371_1.936789_NS=1.936789,leaf_402_1.841452_NS=1.841452,leaf_433_1.667243_NS=1.667243,leaf_407_1.814624_NS=1.814624,leaf_113_2.422679_NS=2.422679,leaf_233_2.248656_NS=2.248656,leaf_207_2.297563_NS=2.297563,leaf_376_1.924895_NS=1.924895,leaf_63_2.491747_NS=2.491747,leaf_180_2.332069_NS=2.332069,leaf_405_1.827007_NS=1.827007,leaf_447_1.555264_NS=1.555264,leaf_475_1.268849_NS=1.268849,leaf_60_2.495682_NS=2.495682,leaf_488_0.816669_NS=0.816669,leaf_48_2.504068_NS=2.504068,leaf_80_2.469241_NS=2.469241,leaf_89_2.459847_NS=2.459847,leaf_58_2.498580_SS=2.498580,leaf_141_2.388276_NS=2.388276,leaf_254_2.213965_NS=2.213965,leaf_225_2.255797_NS=2.255797,leaf_2_2.542547_NS=2.542547,leaf_226_2.254757_NS=2.254757,leaf_266_2.199607_NS=2.199607,leaf_293_2.149248_NS=2.149248,leaf_32_2.518104_NS=2.518104,leaf_70_2.482317_NS=2.482317,leaf_202_2.305963_NS=2.305963,leaf_163_2.357650_NS=2.357650,leaf_230_2.251465_NS=2.251465,leaf_314_2.093476_NS=2.093476,leaf_102_2.435828_NS=2.435828,leaf_367_1.949903_NS=1.949903,leaf_239_2.243599_NS=2.243599,leaf_47_2.504477_NS=2.504477,leaf_264_2.203486_NS=2.203486,leaf_372_1.933683_NS=1.933683,leaf_403_1.831651_NS=1.831651,leaf_412_1.785841_NS=1.785841,leaf_99_2.443270_NS=2.443270,leaf_128_2.404980_NS=2.404980,leaf_444_1.575868_NS=1.575868,leaf_9_2.536554_NS=2.536554,leaf_145_2.378958_NS=2.378958,leaf_319_2.072651_NS=2.072651,leaf_406_1.821815_NS=1.821815,leaf_10_2.533625_NS=2.533625,leaf_291_2.150538_SS=2.150538,leaf_166_2.355850_NS=2.355850,leaf_281_2.171445_NS=2.171445,leaf_340_2.027285_NS=2.027285,leaf_411_1.796049_NS=1.796049,leaf_238_2.244664_NS=2.244664,leaf_464_1.380089_NS=1.380089,leaf_480_1.138990_NS=1.138990,leaf_243_2.234113_NS=2.234113,leaf_69_2.483432_NS=2.483432,leaf_160_2.360704_NS=2.360704,leaf_398_1.850659_NS=1.850659,leaf_430_1.679451_NS=1.679451,leaf_127_2.406028_NS=2.406028,leaf_285_2.164551_NS=2.164551,leaf_341_2.024382_NS=2.024382,leaf_490_0.809123_NS=0.809123,leaf_355_1.994769_NS=1.994769,leaf_477_1.224449_NS=1.224449,leaf_473_1.278562_NS=1.278562,leaf_453_1.499259_NS=1.499259,leaf_478_1.190068_NS=1.190068,leaf_468_1.335865_NS=1.335865,leaf_486_0.880618_NS=0.880618,leaf_495_0.630770_NS=0.630770,leaf_487_0.832315_NS=0.832315,leaf_12_2.531328_NS=2.531328,leaf_105_2.430071_NS=2.430071,leaf_177_2.335590_NS=2.335590,leaf_282_2.168161_NS=2.168161,leaf_311_2.108132_NS=2.108132,leaf_413_1.771103_NS=1.771103,leaf_33_2.517224_NS=2.517224,leaf_61_2.495287_NS=2.495287,leaf_161_2.360172_SS=2.360172,leaf_221_2.264573_NS=2.264573,leaf_279_2.175088_NS=2.175088,leaf_358_1.985156_NS=1.985156,leaf_35_2.516253_NS=2.516253,leaf_45_2.505956_SS=2.505956,leaf_146_2.376362_NS=2.376362,leaf_219_2.266493_NS=2.266493,leaf_431_1.677798_NS=1.677798,leaf_43_2.509225_NS=2.509225,leaf_14_2.529741_NS=2.529741,leaf_235_2.246187_NS=2.246187,leaf_373_1.932307_NS=1.932307,leaf_240_2.242257_NS=2.242257,leaf_343_2.021793_NS=2.021793,leaf_353_2.001007_NS=2.001007,leaf_44_2.507893_NS=2.507893,leaf_62_2.494587_NS=2.494587,leaf_363_1.969868_NS=1.969868,leaf_122_2.410515_NS=2.410515,leaf_267_2.197195_NS=2.197195,leaf_339_2.027874_NS=2.027874,leaf_360_1.978518_SS=1.978518,leaf_222_2.263550_NS=2.263550,leaf_328_2.053585_NS=2.053585,leaf_26_2.521728_NS=2.521728,leaf_36_2.515019_NS=2.515019,leaf_320_2.069981_NS=2.069981,leaf_344_2.019235_NS=2.019235,leaf_356_1.986881_NS=1.986881,leaf_18_2.527536_NS=2.527536,leaf_111_2.424775_NS=2.424775,leaf_154_2.365481_NS=2.365481,leaf_265_2.201864_NS=2.201864,leaf_377_1.923083_NS=1.923083,leaf_283_2.166403_NS=2.166403,leaf_295_2.148050_NS=2.148050,leaf_438_1.625542_NS=1.625542,leaf_118_2.415945_NS=2.415945,leaf_172_2.348594_NS=2.348594,leaf_199_2.310477_NS=2.310477,leaf_440_1.611687_NS=1.611687,leaf_164_2.356715_NS=2.356715,leaf_186_2.326907_NS=2.326907,leaf_366_1.959071_NS=1.959071,leaf_318_2.076314_NS=2.076314,leaf_56_2.500190_NS=2.500190,leaf_298_2.138329_NS=2.138329,leaf_71_2.482178_NS=2.482178,leaf_108_2.426427_NS=2.426427,leaf_85_2.462917_NS=2.462917,leaf_297_2.138792_NS=2.138792,leaf_81_2.468946_NS=2.468946,leaf_103_2.434591_NS=2.434591,leaf_117_2.418835_NS=2.418835,leaf_92_2.458511_NS=2.458511,leaf_273_2.182947_NS=2.182947,leaf_416_1.755889_NS=1.755889,leaf_481_1.112186_NS=1.112186,leaf_346_2.015260_NS=2.015260,leaf_399_1.850541_NS=1.850541,leaf_428_1.688076_NS=1.688076,leaf_455_1.490434_NS=1.490434,leaf_462_1.401691_NS=1.401691,leaf_21_2.524199_NS=2.524199,leaf_138_2.394342_NS=2.394342,leaf_459_1.430707_NS=1.430707,leaf_352_2.002976_NS=2.002976,leaf_396_1.851409_NS=1.851409,leaf_472_1.282779_NS=1.282779,leaf_195_2.313440_NS=2.313440,leaf_466_1.365909_NS=1.365909,leaf_394_1.857136_NS=1.857136,leaf_378_1.920629_NS=1.920629,leaf_442_1.593176_NS=1.593176,leaf_457_1.463729_NS=1.463729,leaf_387_1.897037_NS=1.897037,leaf_469_1.308172_NS=1.308172,leaf_491_0.769592_NS=0.769592,leaf_30_2.519928_NS=2.519928,leaf_302_2.128703_NS=2.128703,leaf_262_2.205718_NS=2.205718,leaf_76_2.474047_NS=2.474047,leaf_106_2.428059_NS=2.428059,leaf_129_2.403293_NS=2.403293,leaf_66_2.487459_NS=2.487459,leaf_155_2.365379_SS=2.365379,leaf_209_2.293989_NS=2.293989,leaf_274_2.179617_NS=2.179617,leaf_427_1.688638_NS=1.688638,leaf_461_1.414834_NS=1.414834,leaf_492_0.721662_NS=0.721662,leaf_496_0.561230_NS=0.561230,leaf_498_0.438647_NS=0.438647,leaf_13_2.529772_NS=2.529772,leaf_73_2.479189_NS=2.479189,leaf_259_2.209544_NS=2.209544,leaf_97_2.448404_NS=2.448404,leaf_454_1.492254_NS=1.492254,leaf_476_1.238221_NS=1.238221,leaf_380_1.914626_NS=1.914626,leaf_450_1.530072_NS=1.530072,leaf_23_2.523416_NS=2.523416,leaf_67_2.487270_SS=2.487270,leaf_228_2.252900_NS=2.252900,leaf_324_2.060139_NS=2.060139,leaf_365_1.960167_NS=1.960167,leaf_435_1.661841_NS=1.661841,leaf_417_1.749099_SS=1.749099,leaf_147_2.374794_NS=2.374794,leaf_460_1.424592_NS=1.424592,leaf_268_2.196326_NS=2.196326,leaf_305_2.120670_SS=2.120670,leaf_425_1.707571_NS=1.707571,leaf_414_1.766250_NS=1.766250,leaf_448_1.553172_NS=1.553172,leaf_269_2.194111_NS=2.194111,leaf_445_1.567652_NS=1.567652,leaf_148_2.373270_NS=2.373270,leaf_150_2.370944_NS=2.370944,leaf_206_2.300116_NS=2.300116,leaf_325_2.058940_NS=2.058940,leaf_482_1.070855_NS=1.070855,leaf_484_0.985162_NS=0.985162,leaf_25_2.522514_NS=2.522514,leaf_191_2.319427_NS=2.319427,leaf_294_2.148671_NS=2.148671,leaf_170_2.351788_NS=2.351788,leaf_119_2.412845_NS=2.412845,leaf_135_2.396722_NS=2.396722,leaf_391_1.876699_NS=1.876699,leaf_456_1.487756_NS=1.487756,leaf_38_2.514618_NS=2.514618,leaf_383_1.906186_NS=1.906186,leaf_419_1.744346_NS=1.744346,leaf_57_2.499722_NS=2.499722,leaf_132_2.400471_NS=2.400471,leaf_165_2.356440_NS=2.356440,leaf_307_2.116637_SS=2.116637,leaf_152_2.370486_NS=2.370486,leaf_327_2.054029_NS=2.054029,leaf_348_2.006232_NS=2.006232,leaf_474_1.276844_SS=1.276844,leaf_441_1.608937_NS=1.608937,leaf_46_2.505833_NS=2.505833,leaf_278_2.175868_NS=2.175868,leaf_304_2.124334_NS=2.124334,leaf_485_0.955462_NS=0.955462,leaf_8_2.537203_NS=2.537203,leaf_255_2.213204_NS=2.213204,leaf_91_2.458590_NS=2.458590,leaf_224_2.258673_NS=2.258673,leaf_82_2.468126_NS=2.468126,leaf_351_2.003087_NS=2.003087,leaf_241_2.236227_NS=2.236227,leaf_197_2.312617_NS=2.312617,leaf_28_2.521431_NS=2.521431,leaf_37_2.514926_NS=2.514926,leaf_116_2.420202_NS=2.420202,leaf_123_2.410343_NS=2.410343,leaf_323_2.065528_NS=2.065528,leaf_497_0.493630_NS=0.493630,leaf_499_0.287874_NS=0.287874,leaf_483_1.017245_NS=1.017245,leaf_489_0.816052_NS=0.816052,leaf_493_0.701572_NS=0.701572">
+                    <taxa id="TaxonSet.tutorial" spec="TaxonSet">
+                        <alignment idref="tutorial"/>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.tutorial"/>
+            </tree>
+            <parameter id="clockRate.c:tutorial" spec="parameter.RealParameter" lower="0.0" name="stateNode">4.6E-6</parameter>
+            <parameter id="originBDMMPrime.t:tutorial" spec="parameter.RealParameter" name="stateNode">10.0</parameter>
+            <parameter id="becomeUninfectiousRateSuperSpreader.t:tutorial" spec="parameter.RealParameter" lower="0.0" name="stateNode">4.0</parameter>
+            <parameter id="samplingProportionSuperSpreader.t:tutorial" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <parameter id="ReAverageSuperSpreader.t:tutorial" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="SSFracSuperSpreader.t:tutorial" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <parameter id="ReMultiplierSuperSpreader.t:tutorial" spec="parameter.RealParameter" lower="1.0" name="stateNode">1.1</parameter>
+        </state>
+        <init id="NewickTree.t:tutorial" spec="beast.base.evolution.tree.TreeParser" estimate="false" initial="@Tree.t:tutorial" newick="(((((((((((((leaf_0_2.545167_NS:0.158654978520,leaf_125_2.410118_NS:0.023606229761):0.217383909571,(leaf_20_2.525951_NS:0.125175673249,leaf_121_2.412153_SS:0.011377356400):0.231647354147):0.168050691185,((((leaf_11_2.531377_NS:0.310870478273,(leaf_201_2.308427_NS:0.079777354403,leaf_246_2.230619_NS:0.001969162525):0.008143234360):0.014237408492,leaf_93_2.457586_NS:0.251317211862):0.071519516531,((leaf_27_2.521713_NS:0.178275252209,leaf_55_2.500521_NS:0.157083380653):0.170271959661,(leaf_83_2.468067_NS:0.251176694623,leaf_216_2.279992_NS:0.063101731889):0.043724762301):0.038416453894):0.056091377130,leaf_196_2.313324_NS:0.234665692217):0.077580472418):0.184711781153,leaf_256_2.212417_NS:0.396051630777):0.467732147490,(leaf_68_2.483970_NS:0.742737161594,((leaf_75_2.475027_NS:0.367456996735,(leaf_115_2.420632_NS:0.294576044107,(leaf_120_2.412332_NS:0.209460152327,leaf_229_2.252887_NS:0.050016036265):0.076815386140):0.018485701131):0.076953869236,leaf_136_2.395846_NS:0.365229270229):0.289384012258):0.392598791129):0.203569157952,(((((((leaf_130_2.402528_NS:0.264183614512,leaf_142_2.382527_NS:0.244183028264):0.050918398864,leaf_171_2.351297_NS:0.263871097292):0.060439468880,leaf_168_2.353258_NS:0.326271636681):0.036437896284,leaf_347_2.007981_NS:0.017432662931):0.288323564495,leaf_250_2.228320_NS:0.526095711645):0.029641600410,((leaf_175_2.346062_NS:0.397951722241,leaf_217_2.274737_NS:0.326626745881):0.268950711071,leaf_359_1.979851_NS:0.300691237531):0.006576613294):0.489343962853,((((leaf_205_2.300545_NS:0.728026542548,leaf_349_2.005809_NS:0.433290360959):0.065264905849,leaf_420_1.735302_NS:0.228048960987):0.113811596240,(leaf_379_1.918155_SS:0.297117707723,leaf_426_1.693503_NS:0.072465544540):0.227595457093):0.133253581856,leaf_463_1.382776_NS:0.122588255101):0.076949048117):0.038174679757):0.024211531965,((((((((((leaf_5_2.539807_NS:0.209301181226,(leaf_87_2.461240_NS:0.121747554592,leaf_176_2.340159_SS:0.000666011013):0.008987007964):0.131089107868,leaf_194_2.313942_NS:0.114525991768):0.337689217475,leaf_389_1.884262_SS:0.022534832841):0.032266107731,leaf_112_2.423924_NS:0.594462645903):0.157460331357,((leaf_110_2.424814_NS:0.069615688879,leaf_149_2.371359_NS:0.016160572798):0.563709971800,leaf_317_2.077522_NS:0.286033606822):0.119488019788):0.016502410930,leaf_424_1.714851_NS:0.059352934229):0.082103244764,(((leaf_101_2.440830_NS:0.418641668633,((leaf_227_2.253996_NS:0.111766153542,leaf_249_2.229099_NS:0.086868763648):0.039518434603,leaf_292_2.149940_SS:0.047228338826):0.080523521013):0.196541084341,leaf_104_2.432136_NS:0.606489403891):0.098944753182,leaf_400_1.847839_NS:0.121137178349):0.153307029304):0.079448882326,leaf_446_1.564143_SS:0.070196415758):0.180408552570,((leaf_429_1.687324_NS:0.253957867495,leaf_436_1.657079_NS:0.223712666799):0.112727847305,leaf_465_1.368819_NS:0.048179999983):0.007100947402):0.030683359224,((((((((leaf_6_2.539032_NS:0.657827127314,(leaf_59_2.498014_NS:0.608846915404,((leaf_182_2.330843_NS:0.251027750160,leaf_253_2.215080_NS:0.135264458215):0.184870364492,leaf_342_2.023572_SS:0.128626802901):0.005778571042):0.007961447678):0.015453172503,leaf_335_2.037680_NS:0.171927751390):0.015374515366,(((leaf_31_2.518745_NS:0.291718689494,(leaf_151_2.370772_NS:0.143436005828,leaf_173_2.348285_NS:0.120949155259):0.000309906872):0.244798673007,leaf_316_2.078771_NS:0.096543297373):0.082651831409,((leaf_86_2.461724_NS:0.360254288460,leaf_272_2.185239_NS:0.083769661611):0.086605109718,(leaf_96_2.450670_NS:0.180110507249,leaf_204_2.303362_NS:0.032802434897):0.255694862376):0.115288570836):0.049198337144):0.120137395666,(((leaf_51_2.502808_NS:0.379275413196,((leaf_79_2.470322_NS:0.074295227458,leaf_84_2.467525_NS:0.071498153066):0.212431905185,leaf_162_2.358670_SS:0.175075310275):0.060062439356):0.208999470986,(leaf_137_2.395759_NS:0.189996915115,leaf_184_2.327630_NS:0.121867359314):0.291229327048):0.076572395680,leaf_245_2.232033_NS:0.394072205516):0.107720487212):0.006796832316,leaf_421_1.729334_NS:0.005890783313):0.092775370763,leaf_322_2.066522_NS:0.435854250213):0.139759867380,leaf_234_2.246333_NS:0.755424452990):0.083848579755,(leaf_415_1.756927_NS:0.153514356895,leaf_418_1.746018_NS:0.142605297553):0.196353360002):0.124205227962):0.162001313450):0.033884104756,leaf_471_1.289525_NS:0.202556492856):0.848248398106,(leaf_479_1.149597_NS:0.817005881808,leaf_494_0.654721_NS:0.322129474609):0.093871075013):0.000781245293,(((((((((((((((((((((((((((leaf_1_2.544121_NS:0.339362308975,(leaf_78_2.471001_NS:0.264821307743,leaf_181_2.331072_NS:0.124892504685):0.001420678466):0.268662377594,((((leaf_100_2.440860_NS:0.285708553116,leaf_179_2.333716_NS:0.178564230460):0.029457930826,(leaf_193_2.316030_NS:0.179107580707,leaf_296_2.139256_NS:0.002333728613):0.011228711245):0.021977355734,leaf_271_2.187307_NS:0.083590733853):0.151186301159,leaf_362_1.973048_NS:0.020517329932):0.016434069056):0.076706530505,(leaf_64_2.490430_NS:0.482087817014,leaf_287_2.160198_NS:0.151855637723):0.148952762926):0.374332437635,leaf_443_1.576535_NS:0.091478010476):0.024236686777,leaf_452_1.511821_NS:0.051000706931):0.013501780476,leaf_357_1.985736_NS:0.538416815594):0.010984943187,(leaf_329_2.052078_NS:0.010659360029,leaf_330_2.048599_NS:0.007180019936):0.605084894927):0.065455744206,leaf_422_1.723301_NS:0.352422869227):0.019144516818,(((((((leaf_7_2.538077_NS:0.135861767211,leaf_15_2.527947_NS:0.125731990021):0.156375336208,leaf_29_2.520167_NS:0.274327181247):0.000341765032,leaf_198_2.312379_NS:0.066880914981):0.160693052808,(((leaf_22_2.523497_NS:0.268322263623,leaf_114_2.421888_NS:0.166714025126):0.056205395181,leaf_143_2.381200_NS:0.182230572783):0.018006094145,((leaf_74_2.475301_NS:0.182850213214,leaf_189_2.323110_NS:0.030659446176):0.060706102894,leaf_223_2.258943_NS:0.027198517327):0.050781312634):0.096158239147):0.122254414764,leaf_321_2.068422_NS:0.105871291941):0.261432170615,(leaf_53_2.501458_NS:0.532155692080,leaf_183_2.328648_NS:0.359345765230):0.268184045522):0.326161645128,(((leaf_98_2.447353_NS:0.737260932564,leaf_409_1.803859_NS:0.093767209706):0.320162158064,leaf_308_2.113848_NS:0.723917728812):0.006063789480,leaf_397_1.851296_NS:0.467429658730):0.008909636116):0.023222831891):0.172649581306,(((leaf_133_2.400060_NS:0.467655839649,leaf_299_2.137706_NS:0.205301837917):0.034918678904,leaf_384_1.902492_NS:0.005006172930):0.014236099143,leaf_178_2.333854_NS:0.450604008934):0.704165630770):0.001917964212,(leaf_190_2.322808_NS:0.340072262191,(leaf_203_2.304402_NS:0.206479323935,leaf_236_2.245599_NS:0.147676740917):0.115186738128):0.805569545096):0.001447054815,(leaf_42_2.509307_NS:0.876361972989,leaf_432_1.672305_NS:0.039360578939):0.457225720066):0.007507143941,(leaf_310_2.109068_NS:0.581805558561,leaf_315_2.082851_NS:0.555588666218):0.359050390911):0.057977728088,(((((((((((leaf_3_2.542004_NS:0.174773729902,leaf_24_2.523139_NS:0.155908082834):0.087083060941,leaf_49_2.503791_NS:0.223643037140):0.050191930621,leaf_153_2.367816_SS:0.137860458929):0.097683297687,leaf_289_2.158706_NS:0.026433481118):0.318531907378,((leaf_109_2.426113_NS:0.422537241004,leaf_277_2.175922_NS:0.172346574092):0.108338600010,(leaf_210_2.291820_NS:0.363705375605,((leaf_211_2.287119_NS:0.235587447236,leaf_257_2.211832_NS:0.160300089744):0.006595950794,leaf_276_2.176610_NS:0.131673632841):0.116821839883):0.032877589414):0.081496101318):0.122011483486,(leaf_214_2.281207_NS:0.436215012696,leaf_393_1.869614_NS:0.024621526048):0.153263362082):0.356826584690,((((((((((((leaf_16_2.527797_NS:0.169578731335,leaf_34_2.517221_NS:0.159003385731):0.150872912391,leaf_258_2.209707_NS:0.002362513284):0.072240477254,leaf_237_2.245485_NS:0.110380266087):0.342385144374,(((leaf_41_2.510287_NS:0.208368691406,leaf_157_2.364818_NS:0.062899151548):0.288097347256,(leaf_215_2.281042_NS:0.238741671704,leaf_300_2.134528_NS:0.092227706802):0.028479026621):0.057704412495,leaf_107_2.426683_NS:0.470566141662):0.163397517168):0.014128844683,leaf_242_2.235930_NS:0.457339455794):0.014714828424,leaf_390_1.883707_NS:0.119831659032):0.016619483148,leaf_338_2.030350_NS:0.283093806963):0.036561347749,((((((((leaf_17_2.527734_NS:0.077111502616,leaf_19_2.527343_NS:0.076721344767):0.144319055930,leaf_39_2.512806_NS:0.206502717839):0.233245979893,leaf_306_2.119276_NS:0.046218626831):0.092463448716,((leaf_52_2.502272_NS:0.285477346316,(leaf_187_2.325182_NS:0.086022404242,leaf_208_2.297407_NS:0.058247290682):0.022365449801):0.034591435742,leaf_231_2.250209_NS:0.068005616351):0.201609511067):0.132417368880,((leaf_40_2.511625_NS:0.643562035355,(leaf_364_1.962120_NS:0.093097937224,(leaf_368_1.946256_NS:0.073586351727,leaf_382_1.909102_NS:0.036432025858):0.003647515937):0.000959483122):0.009001956084,leaf_386_1.898824_NS:0.039763273379):0.010884321863):0.035070242023,leaf_374_1.929510_NS:0.116403780312):0.032261746176,(leaf_174_2.347079_NS:0.525218016972,leaf_392_1.870353_NS:0.048492329926):0.041016306235):0.049880989989,leaf_312_2.099325_NS:0.368361404836):0.020268496722):0.041167835980,((((leaf_126_2.406292_NS:0.429722534722,leaf_286_2.161001_NS:0.184432133349):0.189935658399,leaf_218_2.272732_NS:0.486099089749):0.006598148485,leaf_158_2.364518_NS:0.584482561019):0.094488114546,(leaf_408_1.804275_NS:0.086626379624,leaf_423_1.719075_SS:0.001426244513):0.032101299586):0.016020100299):0.007051747931,(leaf_77_2.472186_NS:0.197854625785,leaf_124_2.410196_NS:0.135864551428):0.611856274402):0.005672836379,(((((leaf_134_2.398035_NS:0.093013463579,leaf_139_2.393643_SS:0.088621939208):0.337072201912,leaf_251_2.225550_NS:0.257601577241):0.122462743381,(((((leaf_140_2.391327_NS:0.083201411139,(leaf_156_2.364900_NS:0.049918784737,leaf_192_2.318416_SS:0.003434945761):0.006855728280):0.080795219588,leaf_200_2.309885_NS:0.082555112960):0.038357546066,leaf_169_2.352500_NS:0.163527517678):0.214390465710,leaf_280_2.172513_NS:0.197931185090):0.047624848784,leaf_167_2.354834_NS:0.427877053136):0.081471181994):0.018755160576,leaf_370_1.939738_NS:0.113007065726):0.099793533013,leaf_410_1.802176_NS:0.075238725328):0.070135100141):0.288383760972,leaf_331_2.045791_NS:0.677371979561):0.033516117020):0.057217603095,((((leaf_72_2.481902_NS:0.483374923739,leaf_263_2.205368_NS:0.206840522373):0.065748117807,leaf_284_2.165054_NS:0.232274330944):0.021530282479,leaf_290_2.153142_NS:0.241892475933):0.489429260686,leaf_439_1.619430_NS:0.197609752397):0.144134933560):0.091748889733,((leaf_309_2.112619_NS:0.794746940747,(leaf_375_1.925656_NS:0.484120336839,leaf_451_1.529948_SS:0.088412304920):0.123663878197):0.033781128730,leaf_470_1.293558_NS:0.009467100284):0.098154772395):0.021265916851,leaf_467_1.359518_NS:0.194848049749):0.038953816391,(((leaf_159_2.362044_SS:0.893482455528,(leaf_437_1.628115_NS:0.107124764118,leaf_449_1.549940_NS:0.028950297181):0.052428370344):0.075500220439,leaf_401_1.844957_NS:0.451895554780):0.201564955562,leaf_395_1.856106_NS:0.664609801459):0.065779988187):0.015482172367):0.142146511255,(((((((((((((((((leaf_4_2.540973_SS:0.221116841975,leaf_65_2.490349_NS:0.170492945464):0.046839789896,leaf_88_2.460492_NS:0.187474989702):0.043020451232,leaf_54_2.501194_NS:0.271197880215):0.059799749758,leaf_260_2.207855_NS:0.037658534237):0.037681680450,leaf_288_2.159226_NS:0.026711670389):0.312190640196,leaf_50_2.503145_NS:0.682821189576):0.011727970922,leaf_252_2.220633_NS:0.412037262446):0.005801893339,leaf_90_2.459608_NS:0.656813826396):0.002256166508,(((leaf_131_2.401676_NS:0.369730251242,leaf_333_2.042114_NS:0.010168479352):0.068973879815,leaf_244_2.233147_NS:0.270174769742):0.004427413075,leaf_361_1.976792_NS:0.018247380843):0.158006596171):0.057560346226,leaf_388_1.887323_NS:0.144345569896):0.421245408525,leaf_247_2.230587_NS:0.908855020443):0.075596105466,(((leaf_94_2.455814_SS:0.214718979066,leaf_212_2.285180_NS:0.044085055595):0.178648344498,leaf_313_2.097327_NS:0.034880132255):0.095001227186,leaf_337_2.031465_NS:0.064019973007):0.721309221800):0.025166946902,(((leaf_185_2.327169_NS:0.159858699196,leaf_270_2.191943_NS:0.024632418558):0.432811276592,leaf_188_2.324492_NS:0.589992983110):0.197748363769,leaf_248_2.229778_NS:0.693027220836):0.315781867316):0.019442618655,leaf_458_1.443893_NS:0.242366605221):0.008243814629,((leaf_95_2.452034_NS:1.161410098867,(((((leaf_144_2.380964_NS:0.457425828821,leaf_303_2.126320_NS:0.202781763170):0.212111952644,((leaf_213_2.284609_NS:0.345672850094,leaf_334_2.041190_NS:0.102254116472):0.063307475057,leaf_232_2.250017_NS:0.374388034550):0.164202238754):0.209578282964,((leaf_261_2.206196_NS:0.659182589240,leaf_369_1.944414_NS:0.397401310293):0.028710717520,((leaf_354_1.996533_NS:0.422398097048,leaf_434_1.664482_SS:0.090346739045):0.040466684224,leaf_385_1.901686_NS:0.368017359192):0.015365977249):0.016454408353):0.039184585244,(((((leaf_220_2.264972_NS:0.572173367266,(leaf_345_2.016177_NS:0.103397930299,leaf_350_2.003837_NS:0.091057812551):0.219980319903):0.001315980995,leaf_301_2.129556_NS:0.438073874346):0.014804738023,leaf_404_1.830106_NS:0.153428004012):0.141871129882,(leaf_332_2.045760_NS:0.382021588661,leaf_336_2.037146_NS:0.373407447089):0.128931754124):0.050429278975,(leaf_275_2.177955_NS:0.275079701814,leaf_381_1.912437_SS:0.009561177635):0.418498307285):0.021713959368):0.053586849982,(((leaf_326_2.056516_NS:0.357344924827,(leaf_371_1.936789_NS:0.219119215244,leaf_402_1.841452_NS:0.123781704910):0.018498745831):0.032863825549,leaf_433_1.667243_NS:0.000935416807):0.208079660526,leaf_407_1.814624_NS:0.356396461299):0.049151422568):0.118452512723):0.008501197002,(leaf_113_2.422679_NS:0.520350977464,leaf_233_2.248656_NS:0.346328192431):0.620205448901):0.088840005464):0.024682570966,leaf_207_2.297563_NS:1.128962700657):0.012199489460,leaf_376_1.924895_NS:0.768494651002):0.188313198738):0.037571171339,(((leaf_63_2.491747_NS:0.558654812361,leaf_180_2.332069_NS:0.398976377702):0.379401185323,leaf_405_1.827007_NS:0.273315606462):0.288352270234,leaf_447_1.555264_NS:0.289925128582):0.334822246848):0.031533596819,leaf_475_1.268849_NS:0.369866521640):0.027282841432,leaf_60_2.495682_NS:1.623981740992):0.111819411559,leaf_488_0.816669_NS:0.056788069403):0.074157981039,(((((leaf_48_2.504068_NS:0.048205679505,leaf_80_2.469241_NS:0.013379153213):0.009967235037,leaf_89_2.459847_NS:0.013952431040):0.196473810342,(leaf_58_2.498580_SS:0.199571764156,leaf_141_2.388276_NS:0.089267611006):0.049587361800):0.351184456208,leaf_254_2.213965_NS:0.315728933992):0.176268983650,leaf_225_2.255797_NS:0.533830013056):1.036244856219):0.022220948070,((((((((((leaf_2_2.542547_NS:0.528227421490,leaf_226_2.254757_NS:0.240436904711):0.185011941673,(leaf_266_2.199607_NS:0.154433658806,leaf_293_2.149248_NS:0.104074842763):0.215865527717):0.171579974457,(((((((leaf_32_2.518104_NS:0.392029657917,((leaf_70_2.482317_NS:0.218541939882,leaf_202_2.305963_NS:0.042188129983):0.109018827324,(leaf_163_2.357650_NS:0.128917283954,leaf_230_2.251465_NS:0.022731964468):0.073977371570):0.028681513750):0.090776186370,leaf_314_2.093476_NS:0.058177876091):0.151231287585,leaf_102_2.435828_NS:0.551760961579):0.074271478639,leaf_367_1.949903_NS:0.140107708363):0.053214398983,leaf_239_2.243599_NS:0.487018475641):0.032700866015,((leaf_47_2.504477_NS:0.512091450524,leaf_264_2.203486_NS:0.211100240250):0.063760985075,leaf_372_1.933683_NS:0.005058435506):0.204744372875):0.002186476591,leaf_403_1.831651_NS:0.109957863914):0.063965880823):0.118017869359,leaf_412_1.785841_NS:0.246131087999):0.005638173006,(leaf_99_2.443270_NS:0.257366237663,leaf_128_2.404980_NS:0.219076739352):0.651831861537):0.054204559837,leaf_444_1.575868_NS:0.096000678085):0.041141048834,((((((leaf_9_2.536554_NS:0.275938612044,leaf_145_2.378958_NS:0.118342705634):0.453381321285,leaf_319_2.072651_NS:0.265416570414):0.070478520964,leaf_406_1.821815_NS:0.085059928903):0.091643094244,(((leaf_10_2.533625_NS:0.534122437238,leaf_291_2.150538_SS:0.151035178696):0.074557594279,(leaf_166_2.355850_NS:0.359051567808,leaf_281_2.171445_NS:0.174647169068):0.071853112122):0.005535823679,leaf_340_2.027285_NS:0.107875916787):0.274296901003):0.084477640910,leaf_411_1.796049_NS:0.235413828644):0.006457587549,leaf_238_2.244664_NS:0.690486818542):0.115451142684):0.073396700602,leaf_464_1.380089_NS:0.014760014926):0.248987166310,leaf_480_1.138990_NS:0.022647755045):0.247141071145,leaf_243_2.234113_NS:1.364911845828):0.205699500866):0.002006921612,(((((((leaf_69_2.483432_NS:0.586213498099,leaf_160_2.360704_NS:0.463485278001):0.295299659735,leaf_398_1.850659_NS:0.248740153982):0.481925027397,leaf_430_1.679451_NS:0.559457547504):0.001090758616,((leaf_127_2.406028_NS:0.253055470562,leaf_285_2.164551_NS:0.011578466364):0.244360202064,leaf_341_2.024382_NS:0.115769761030):0.789709198520):0.336400493545,leaf_490_0.809123_NS:0.026620702027):0.018322094673,(((((leaf_355_1.994769_NS:0.850537206499,leaf_477_1.224449_NS:0.080217626486):0.100528884792,leaf_473_1.278562_NS:0.234859206913):0.018999923961,leaf_453_1.499259_NS:0.474555898230):0.041883051019,leaf_478_1.190068_NS:0.207248441193):0.107154435105,leaf_468_1.335865_NS:0.460200165280):0.111484628254):0.010218598798,leaf_486_0.880618_NS:0.126656242744):0.092467194110):0.083177233041,leaf_495_0.630770_NS:0.052452409890):0.078824029185,leaf_487_0.832315_NS:0.332821592788):0.206179861655,((((((((((((((leaf_12_2.531328_NS:0.271340480636,leaf_105_2.430071_NS:0.170083785843):0.526764489926,(leaf_177_2.335590_NS:0.599698880696,(leaf_282_2.168161_NS:0.286194803343,leaf_311_2.108132_NS:0.226165206110):0.146075736883):0.002668034589):0.031073362320,leaf_413_1.771103_NS:0.068953108146):0.126390055395,((leaf_33_2.517224_NS:0.613999147595,(((leaf_61_2.495287_NS:0.157742222493,leaf_161_2.360172_SS:0.022628010386):0.338669538539,leaf_221_2.264573_NS:0.265698133021):0.050380054960,leaf_279_2.175088_NS:0.226593035846):0.045269719731):0.027716009911,leaf_358_1.985156_NS:0.109646888266):0.299749739930):0.006291400696,(((leaf_35_2.516253_NS:0.199385981531,leaf_45_2.505956_SS:0.189088736292):0.100076489508,leaf_146_2.376362_NS:0.159571192410):0.116520580267,leaf_219_2.266493_NS:0.166222926424):0.530802118536):0.025000304135,leaf_431_1.677798_NS:0.133330630928):0.001792484279,leaf_43_2.509225_NS:0.966549826018):0.030493649924,((((((((((leaf_14_2.529741_NS:0.485015832480,leaf_235_2.246187_NS:0.201462314997):0.149979280745,leaf_373_1.932307_NS:0.037561872770):0.065294220391,leaf_240_2.242257_NS:0.412806009089):0.103645745929,leaf_343_2.021793_NS:0.295987686460):0.016185332883,leaf_353_2.001007_NS:0.291387387768):0.112821681670,((leaf_44_2.507893_NS:0.316444560714,leaf_62_2.494587_NS:0.303138558085):0.325153377808,leaf_363_1.969868_NS:0.103573171758):0.269496414499):0.001942817170,((leaf_122_2.410515_NS:0.430428360474,leaf_267_2.197195_NS:0.217108171003):0.241080696925,leaf_339_2.027874_NS:0.288867881232):0.144150624867):0.001940534730,leaf_360_1.978518_SS:0.385603069188):0.055772007781,leaf_222_2.263550_NS:0.726406763413):0.000135776383,leaf_328_2.053585_NS:0.516577513773):0.024825742876):0.014057855140,(leaf_26_2.521728_NS:0.916788463250,(leaf_36_2.515019_NS:0.890140953934,(leaf_320_2.069981_NS:0.232401350148,leaf_344_2.019235_NS:0.181655656361):0.212701084845):0.019938959841):0.106815623929):0.057420876596,leaf_356_1.986881_NS:0.546178171165):0.798361812567,(((((((((leaf_18_2.527536_NS:0.232611819214,leaf_111_2.424775_NS:0.129850256171):0.175658829024,leaf_154_2.365481_NS:0.246215358528):0.092319422674,leaf_265_2.201864_NS:0.174918302522):0.149661082300,leaf_377_1.923083_NS:0.045798101134):0.189352872822,(leaf_283_2.166403_NS:0.071992342865,leaf_295_2.148050_NS:0.053638760204):0.406478831617):0.390671002613,leaf_438_1.625542_NS:0.328280782736):0.130625850569,((leaf_118_2.415945_NS:0.397173471662,(leaf_172_2.348594_NS:0.117855176334,leaf_199_2.310477_NS:0.079738916501):0.211967258934):0.676771119878,leaf_440_1.611687_NS:0.269687375942):0.175364661829):0.055566147208,((leaf_164_2.356715_NS:0.225344239065,leaf_186_2.326907_NS:0.195536856300):0.199666777207,leaf_366_1.959071_NS:0.027367314348):0.820634474193):0.010797724524,leaf_318_2.076314_NS:0.976042248027):0.457930461147):0.159445148218,((((leaf_56_2.500190_NS:0.587667810553,leaf_298_2.138329_NS:0.225806520511):0.631063127042,((((leaf_71_2.482178_NS:0.294844089179,leaf_108_2.426427_NS:0.239093588623):0.110430602079,leaf_85_2.462917_NS:0.386014245060):0.076554270317,leaf_297_2.138792_NS:0.138443029160):0.122406896449,(((leaf_81_2.468946_NS:0.376826927009,(leaf_103_2.434591_NS:0.147069582337,leaf_117_2.418835_NS:0.131313487580):0.195402129102):0.062627677839,leaf_92_2.458511_NS:0.429019571677):0.091144037878,leaf_273_2.182947_NS:0.244599972764):0.060405236521):0.596482995478):0.011114556453,leaf_416_1.755889_NS:0.485544429088):0.542792998713,leaf_481_1.112186_NS:0.384634275435):0.244655690481):0.070561366028,((leaf_346_2.015260_NS:0.653039973201,((leaf_399_1.850541_NS:0.268350494926,leaf_428_1.688076_NS:0.105884626709):0.193281948110,leaf_455_1.490434_NS:0.101524936519):0.026688517439):0.031723410989,leaf_462_1.401691_NS:0.071193524006):0.918162644802):0.075272396863,((((((((((leaf_21_2.524199_NS:0.284742850687,leaf_138_2.394342_NS:0.154886227389):1.220453942611,leaf_459_1.430707_NS:0.411704738314):0.020585129426,((leaf_352_2.002976_NS:0.508903437072,leaf_396_1.851409_NS:0.357335903755):0.328547570529,leaf_472_1.282779_NS:0.117253493085):0.167108322889):0.082349575818,(((leaf_195_2.313440_NS:0.991140936893,leaf_466_1.365909_NS:0.043609914899):0.045145725873,leaf_394_1.857136_NS:0.579982505421):0.018651603347,(leaf_378_1.920629_NS:0.573521626013,(leaf_442_1.593176_NS:0.224523314134,leaf_457_1.463729_NS:0.095076430348):0.021544680547):0.088606350961):0.342433940713):0.339418442258,(leaf_387_1.897037_NS:1.303227469489,leaf_469_1.308172_NS:0.714362153405):0.017160863447):0.014224558381,leaf_491_0.769592_NS:0.207167201109):0.003687445506,((((((leaf_30_2.519928_NS:0.452677544263,leaf_302_2.128703_NS:0.061452601426):0.183500318107,leaf_262_2.205718_NS:0.321967207173):0.067269887274,leaf_76_2.474047_NS:0.657566661806):0.005743420257,(leaf_106_2.428059_NS:0.233579700110,leaf_129_2.403293_NS:0.208813898719):0.383742202097):0.229585392042,(leaf_66_2.487459_NS:0.378712796200,leaf_155_2.365379_SS:0.256633203253):0.527594372215):0.760763951435,((leaf_209_2.293989_NS:0.235301048157,leaf_274_2.179617_NS:0.120929713900):1.038594619126,(leaf_427_1.688638_NS:0.466290453754,leaf_461_1.414834_NS:0.192485603351):0.202255105427):0.199705018001):0.261650805835):0.033659375709,leaf_492_0.721662_NS:0.196584128282):0.008046862851,leaf_496_0.561230_NS:0.044198666155):0.121772161377,leaf_498_0.438647_NS:0.043388506162):0.058196617108):0.043748476640):0.013153268734,(((((leaf_13_2.529772_NS:1.013587716661,((leaf_73_2.479189_NS:0.278728729097,leaf_259_2.209544_NS:0.009083148838):0.522738689296,leaf_97_2.448404_NS:0.770682541648):0.161537393966):0.027241219814,leaf_454_1.492254_NS:0.003310917214):0.459555444235,leaf_476_1.238221_NS:0.208833644625):0.138041294382,(leaf_380_1.914626_NS:0.441319769889,leaf_450_1.530072_NS:0.056765504702):0.581959602346):0.043249210200,((((((((((((((leaf_23_2.523416_NS:0.053603186655,leaf_67_2.487270_SS:0.017457748840):0.230063810422,leaf_228_2.252900_NS:0.013151810548):0.295309583651,leaf_324_2.060139_NS:0.115699852159):0.211146691971,leaf_365_1.960167_NS:0.226875128924):0.231314423378,leaf_435_1.661841_NS:0.159862947797):0.140129868392,leaf_417_1.749099_SS:0.387250687267):0.059093675237,(leaf_147_2.374794_NS:1.039575184090,leaf_460_1.424592_NS:0.089373155018):0.032464679388):0.138488028071,(leaf_268_2.196326_NS:0.640322084823,((leaf_305_2.120670_SS:0.416905887191,leaf_425_1.707571_NS:0.003806436271):0.004528680950,leaf_414_1.766250_NS:0.067013918423):0.143231850670):0.391737572988):0.033445215013,leaf_448_1.553172_NS:0.422350445948):0.073629929756,(leaf_269_2.194111_NS:0.852924547074,leaf_445_1.567652_NS:0.226465481355):0.283995251156):0.012274864112,(((leaf_148_2.373270_NS:0.178738360050,leaf_150_2.370944_NS:0.176412377845):0.280602878949,leaf_206_2.300116_NS:0.386186732194):0.570652336850,leaf_325_2.058940_NS:0.715663363839):0.298360371224):0.013332941924,leaf_482_1.070855_NS:0.039271508261):0.094488120298,leaf_484_0.985162_NS:0.048066827877):0.034935266921,(((((leaf_25_2.522514_NS:0.610697774361,(leaf_191_2.319427_NS:0.224770381564,leaf_294_2.148671_NS:0.054015101020):0.182840119788):0.521135172387,leaf_170_2.351788_NS:0.961106537764):0.281024175906,(((leaf_119_2.412845_NS:0.117878822986,leaf_135_2.396722_NS:0.101755665390):0.432438654596,leaf_391_1.876699_NS:0.014170791699):0.635198547640,leaf_456_1.487756_NS:0.260426789596):0.117672488968):0.110651830175,((((leaf_38_2.514618_NS:0.709873074129,leaf_383_1.906186_NS:0.101441175186):0.241507287609,leaf_419_1.744346_NS:0.181108072469):0.344781205425,(((((leaf_57_2.499722_NS:0.476498648400,((leaf_132_2.400471_NS:0.152941521791,leaf_165_2.356440_NS:0.108910973971):0.179733722848,leaf_307_2.116637_SS:0.048841709299):0.044572294644):0.128621217073,leaf_152_2.370486_NS:0.475884598774):0.629763017154,(leaf_327_2.054029_NS:0.490657394079,leaf_348_2.006232_NS:0.442860104434):0.298532946055):0.011395043942,leaf_474_1.276844_SS:0.023400231479):0.019770397405,leaf_441_1.608937_NS:0.375264094060):0.015216562867):0.215447766174,(leaf_46_2.505833_NS:1.379775960140,(leaf_278_2.175868_NS:0.124996327634,leaf_304_2.124334_NS:0.073462743888):0.924814227636):0.123048185685):0.004004070957):0.053380527629,leaf_485_0.955462_NS:0.009837999633):0.043464427438):0.054062757865):0.567936947244):0.019871031332,((((((leaf_8_2.537203_NS:0.498962150705,leaf_255_2.213204_NS:0.174963369204):0.023910474498,leaf_91_2.458590_NS:0.444259806329):0.021541932104,leaf_224_2.258673_NS:0.265884288212):0.234262323795,((leaf_82_2.468126_NS:0.495399651877,leaf_351_2.003087_NS:0.030360741191):0.084860259871,leaf_241_2.236227_NS:0.348360056841):0.129340495443):0.094495138489,leaf_197_2.312617_NS:0.648586629649):0.054825906216,(leaf_28_2.521431_NS:0.639555021426,((leaf_37_2.514926_NS:0.556913823884,(leaf_116_2.420202_NS:0.351115007638,leaf_123_2.410343_NS:0.341256003192):0.111074145001):0.041439331477,leaf_323_2.065528_NS:0.148955414354):0.034697358869):0.272670803840):1.348915625061):0.022350069260):0.023878047137,leaf_497_0.493630_NS:0.279569294582):0.119470304071,leaf_499_0.287874_NS:0.193283043484):0.094590875154,((leaf_483_1.017245_NS:0.502113218597,leaf_489_0.816052_NS:0.300920464307):0.029730077259,leaf_493_0.701572_NS:0.216170786131):0.485401565806):0.000000000000;" taxa="@tutorial"/>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="BDMMPrime.t:tutorial" spec="bdmmprime.distribution.BirthDeathMigrationDistribution" tree="@Tree.t:tutorial">
+                    <parameterization id="SuperSpreaderBDMMPrimeParameterization.t:tutorial" spec="superspreader.parameterization.SuperSpreaderParameterization">
+                        <becomeUninfectiousRate id="becomeUninfectiousRateSPSuperSpreader.t:tutorial" spec="bdmmprime.parameterization.SkylineVectorParameter" skylineValues="@becomeUninfectiousRateSuperSpreader.t:tutorial" timesAreAges="true">
+                            <processLength id="processLengthBDMMPrime.t:tutorial" spec="bdmmprime.util.ProcessLength" origin="@originBDMMPrime.t:tutorial"/>
+                            <typeSet id="typeSetBDMMPrime.t:tutorial" spec="bdmmprime.parameterization.TypeSet" value="NS,SS">
+                                <typeTraitSet id="typeTraitSet.t:tutorial" spec="bdmmprime.util.InitializedTraitSet" traitname="type" value="leaf_0_2.545167_NS=?,leaf_100_2.440860_NS=?,leaf_101_2.440830_NS=?,leaf_102_2.435828_NS=?,leaf_103_2.434591_NS=?,leaf_104_2.432136_NS=?,leaf_105_2.430071_NS=?,leaf_106_2.428059_NS=?,leaf_107_2.426683_NS=?,leaf_108_2.426427_NS=?,leaf_109_2.426113_NS=?,leaf_10_2.533625_NS=?,leaf_110_2.424814_NS=?,leaf_111_2.424775_NS=?,leaf_112_2.423924_NS=?,leaf_113_2.422679_NS=?,leaf_114_2.421888_NS=?,leaf_115_2.420632_NS=?,leaf_116_2.420202_NS=?,leaf_117_2.418835_NS=?,leaf_118_2.415945_NS=?,leaf_119_2.412845_NS=?,leaf_11_2.531377_NS=?,leaf_120_2.412332_NS=?,leaf_121_2.412153_SS=?,leaf_122_2.410515_NS=?,leaf_123_2.410343_NS=?,leaf_124_2.410196_NS=?,leaf_125_2.410118_NS=?,leaf_126_2.406292_NS=?,leaf_127_2.406028_NS=?,leaf_128_2.404980_NS=?,leaf_129_2.403293_NS=?,leaf_12_2.531328_NS=?,leaf_130_2.402528_NS=?,leaf_131_2.401676_NS=?,leaf_132_2.400471_NS=?,leaf_133_2.400060_NS=?,leaf_134_2.398035_NS=?,leaf_135_2.396722_NS=?,leaf_136_2.395846_NS=?,leaf_137_2.395759_NS=?,leaf_138_2.394342_NS=?,leaf_139_2.393643_SS=?,leaf_13_2.529772_NS=?,leaf_140_2.391327_NS=?,leaf_141_2.388276_NS=?,leaf_142_2.382527_NS=?,leaf_143_2.381200_NS=?,leaf_144_2.380964_NS=?,leaf_145_2.378958_NS=?,leaf_146_2.376362_NS=?,leaf_147_2.374794_NS=?,leaf_148_2.373270_NS=?,leaf_149_2.371359_NS=?,leaf_14_2.529741_NS=?,leaf_150_2.370944_NS=?,leaf_151_2.370772_NS=?,leaf_152_2.370486_NS=?,leaf_153_2.367816_SS=?,leaf_154_2.365481_NS=?,leaf_155_2.365379_SS=?,leaf_156_2.364900_NS=?,leaf_157_2.364818_NS=?,leaf_158_2.364518_NS=?,leaf_159_2.362044_SS=?,leaf_15_2.527947_NS=?,leaf_160_2.360704_NS=?,leaf_161_2.360172_SS=?,leaf_162_2.358670_SS=?,leaf_163_2.357650_NS=?,leaf_164_2.356715_NS=?,leaf_165_2.356440_NS=?,leaf_166_2.355850_NS=?,leaf_167_2.354834_NS=?,leaf_168_2.353258_NS=?,leaf_169_2.352500_NS=?,leaf_16_2.527797_NS=?,leaf_170_2.351788_NS=?,leaf_171_2.351297_NS=?,leaf_172_2.348594_NS=?,leaf_173_2.348285_NS=?,leaf_174_2.347079_NS=?,leaf_175_2.346062_NS=?,leaf_176_2.340159_SS=?,leaf_177_2.335590_NS=?,leaf_178_2.333854_NS=?,leaf_179_2.333716_NS=?,leaf_17_2.527734_NS=?,leaf_180_2.332069_NS=?,leaf_181_2.331072_NS=?,leaf_182_2.330843_NS=?,leaf_183_2.328648_NS=?,leaf_184_2.327630_NS=?,leaf_185_2.327169_NS=?,leaf_186_2.326907_NS=?,leaf_187_2.325182_NS=?,leaf_188_2.324492_NS=?,leaf_189_2.323110_NS=?,leaf_18_2.527536_NS=?,leaf_190_2.322808_NS=?,leaf_191_2.319427_NS=?,leaf_192_2.318416_SS=?,leaf_193_2.316030_NS=?,leaf_194_2.313942_NS=?,leaf_195_2.313440_NS=?,leaf_196_2.313324_NS=?,leaf_197_2.312617_NS=?,leaf_198_2.312379_NS=?,leaf_199_2.310477_NS=?,leaf_19_2.527343_NS=?,leaf_1_2.544121_NS=?,leaf_200_2.309885_NS=?,leaf_201_2.308427_NS=?,leaf_202_2.305963_NS=?,leaf_203_2.304402_NS=?,leaf_204_2.303362_NS=?,leaf_205_2.300545_NS=?,leaf_206_2.300116_NS=?,leaf_207_2.297563_NS=?,leaf_208_2.297407_NS=?,leaf_209_2.293989_NS=?,leaf_20_2.525951_NS=?,leaf_210_2.291820_NS=?,leaf_211_2.287119_NS=?,leaf_212_2.285180_NS=?,leaf_213_2.284609_NS=?,leaf_214_2.281207_NS=?,leaf_215_2.281042_NS=?,leaf_216_2.279992_NS=?,leaf_217_2.274737_NS=?,leaf_218_2.272732_NS=?,leaf_219_2.266493_NS=?,leaf_21_2.524199_NS=?,leaf_220_2.264972_NS=?,leaf_221_2.264573_NS=?,leaf_222_2.263550_NS=?,leaf_223_2.258943_NS=?,leaf_224_2.258673_NS=?,leaf_225_2.255797_NS=?,leaf_226_2.254757_NS=?,leaf_227_2.253996_NS=?,leaf_228_2.252900_NS=?,leaf_229_2.252887_NS=?,leaf_22_2.523497_NS=?,leaf_230_2.251465_NS=?,leaf_231_2.250209_NS=?,leaf_232_2.250017_NS=?,leaf_233_2.248656_NS=?,leaf_234_2.246333_NS=?,leaf_235_2.246187_NS=?,leaf_236_2.245599_NS=?,leaf_237_2.245485_NS=?,leaf_238_2.244664_NS=?,leaf_239_2.243599_NS=?,leaf_23_2.523416_NS=?,leaf_240_2.242257_NS=?,leaf_241_2.236227_NS=?,leaf_242_2.235930_NS=?,leaf_243_2.234113_NS=?,leaf_244_2.233147_NS=?,leaf_245_2.232033_NS=?,leaf_246_2.230619_NS=?,leaf_247_2.230587_NS=?,leaf_248_2.229778_NS=?,leaf_249_2.229099_NS=?,leaf_24_2.523139_NS=?,leaf_250_2.228320_NS=?,leaf_251_2.225550_NS=?,leaf_252_2.220633_NS=?,leaf_253_2.215080_NS=?,leaf_254_2.213965_NS=?,leaf_255_2.213204_NS=?,leaf_256_2.212417_NS=?,leaf_257_2.211832_NS=?,leaf_258_2.209707_NS=?,leaf_259_2.209544_NS=?,leaf_25_2.522514_NS=?,leaf_260_2.207855_NS=?,leaf_261_2.206196_NS=?,leaf_262_2.205718_NS=?,leaf_263_2.205368_NS=?,leaf_264_2.203486_NS=?,leaf_265_2.201864_NS=?,leaf_266_2.199607_NS=?,leaf_267_2.197195_NS=?,leaf_268_2.196326_NS=?,leaf_269_2.194111_NS=?,leaf_26_2.521728_NS=?,leaf_270_2.191943_NS=?,leaf_271_2.187307_NS=?,leaf_272_2.185239_NS=?,leaf_273_2.182947_NS=?,leaf_274_2.179617_NS=?,leaf_275_2.177955_NS=?,leaf_276_2.176610_NS=?,leaf_277_2.175922_NS=?,leaf_278_2.175868_NS=?,leaf_279_2.175088_NS=?,leaf_27_2.521713_NS=?,leaf_280_2.172513_NS=?,leaf_281_2.171445_NS=?,leaf_282_2.168161_NS=?,leaf_283_2.166403_NS=?,leaf_284_2.165054_NS=?,leaf_285_2.164551_NS=?,leaf_286_2.161001_NS=?,leaf_287_2.160198_NS=?,leaf_288_2.159226_NS=?,leaf_289_2.158706_NS=?,leaf_28_2.521431_NS=?,leaf_290_2.153142_NS=?,leaf_291_2.150538_SS=?,leaf_292_2.149940_SS=?,leaf_293_2.149248_NS=?,leaf_294_2.148671_NS=?,leaf_295_2.148050_NS=?,leaf_296_2.139256_NS=?,leaf_297_2.138792_NS=?,leaf_298_2.138329_NS=?,leaf_299_2.137706_NS=?,leaf_29_2.520167_NS=?,leaf_2_2.542547_NS=?,leaf_300_2.134528_NS=?,leaf_301_2.129556_NS=?,leaf_302_2.128703_NS=?,leaf_303_2.126320_NS=?,leaf_304_2.124334_NS=?,leaf_305_2.120670_SS=?,leaf_306_2.119276_NS=?,leaf_307_2.116637_SS=?,leaf_308_2.113848_NS=?,leaf_309_2.112619_NS=?,leaf_30_2.519928_NS=?,leaf_310_2.109068_NS=?,leaf_311_2.108132_NS=?,leaf_312_2.099325_NS=?,leaf_313_2.097327_NS=?,leaf_314_2.093476_NS=?,leaf_315_2.082851_NS=?,leaf_316_2.078771_NS=?,leaf_317_2.077522_NS=?,leaf_318_2.076314_NS=?,leaf_319_2.072651_NS=?,leaf_31_2.518745_NS=?,leaf_320_2.069981_NS=?,leaf_321_2.068422_NS=?,leaf_322_2.066522_NS=?,leaf_323_2.065528_NS=?,leaf_324_2.060139_NS=?,leaf_325_2.058940_NS=?,leaf_326_2.056516_NS=?,leaf_327_2.054029_NS=?,leaf_328_2.053585_NS=?,leaf_329_2.052078_NS=?,leaf_32_2.518104_NS=?,leaf_330_2.048599_NS=?,leaf_331_2.045791_NS=?,leaf_332_2.045760_NS=?,leaf_333_2.042114_NS=?,leaf_334_2.041190_NS=?,leaf_335_2.037680_NS=?,leaf_336_2.037146_NS=?,leaf_337_2.031465_NS=?,leaf_338_2.030350_NS=?,leaf_339_2.027874_NS=?,leaf_33_2.517224_NS=?,leaf_340_2.027285_NS=?,leaf_341_2.024382_NS=?,leaf_342_2.023572_SS=?,leaf_343_2.021793_NS=?,leaf_344_2.019235_NS=?,leaf_345_2.016177_NS=?,leaf_346_2.015260_NS=?,leaf_347_2.007981_NS=?,leaf_348_2.006232_NS=?,leaf_349_2.005809_NS=?,leaf_34_2.517221_NS=?,leaf_350_2.003837_NS=?,leaf_351_2.003087_NS=?,leaf_352_2.002976_NS=?,leaf_353_2.001007_NS=?,leaf_354_1.996533_NS=?,leaf_355_1.994769_NS=?,leaf_356_1.986881_NS=?,leaf_357_1.985736_NS=?,leaf_358_1.985156_NS=?,leaf_359_1.979851_NS=?,leaf_35_2.516253_NS=?,leaf_360_1.978518_SS=?,leaf_361_1.976792_NS=?,leaf_362_1.973048_NS=?,leaf_363_1.969868_NS=?,leaf_364_1.962120_NS=?,leaf_365_1.960167_NS=?,leaf_366_1.959071_NS=?,leaf_367_1.949903_NS=?,leaf_368_1.946256_NS=?,leaf_369_1.944414_NS=?,leaf_36_2.515019_NS=?,leaf_370_1.939738_NS=?,leaf_371_1.936789_NS=?,leaf_372_1.933683_NS=?,leaf_373_1.932307_NS=?,leaf_374_1.929510_NS=?,leaf_375_1.925656_NS=?,leaf_376_1.924895_NS=?,leaf_377_1.923083_NS=?,leaf_378_1.920629_NS=?,leaf_379_1.918155_SS=?,leaf_37_2.514926_NS=?,leaf_380_1.914626_NS=?,leaf_381_1.912437_SS=?,leaf_382_1.909102_NS=?,leaf_383_1.906186_NS=?,leaf_384_1.902492_NS=?,leaf_385_1.901686_NS=?,leaf_386_1.898824_NS=?,leaf_387_1.897037_NS=?,leaf_388_1.887323_NS=?,leaf_389_1.884262_SS=?,leaf_38_2.514618_NS=?,leaf_390_1.883707_NS=?,leaf_391_1.876699_NS=?,leaf_392_1.870353_NS=?,leaf_393_1.869614_NS=?,leaf_394_1.857136_NS=?,leaf_395_1.856106_NS=?,leaf_396_1.851409_NS=?,leaf_397_1.851296_NS=?,leaf_398_1.850659_NS=?,leaf_399_1.850541_NS=?,leaf_39_2.512806_NS=?,leaf_3_2.542004_NS=?,leaf_400_1.847839_NS=?,leaf_401_1.844957_NS=?,leaf_402_1.841452_NS=?,leaf_403_1.831651_NS=?,leaf_404_1.830106_NS=?,leaf_405_1.827007_NS=?,leaf_406_1.821815_NS=?,leaf_407_1.814624_NS=?,leaf_408_1.804275_NS=?,leaf_409_1.803859_NS=?,leaf_40_2.511625_NS=?,leaf_410_1.802176_NS=?,leaf_411_1.796049_NS=?,leaf_412_1.785841_NS=?,leaf_413_1.771103_NS=?,leaf_414_1.766250_NS=?,leaf_415_1.756927_NS=?,leaf_416_1.755889_NS=?,leaf_417_1.749099_SS=?,leaf_418_1.746018_NS=?,leaf_419_1.744346_NS=?,leaf_41_2.510287_NS=?,leaf_420_1.735302_NS=?,leaf_421_1.729334_NS=?,leaf_422_1.723301_NS=?,leaf_423_1.719075_SS=?,leaf_424_1.714851_NS=?,leaf_425_1.707571_NS=?,leaf_426_1.693503_NS=?,leaf_427_1.688638_NS=?,leaf_428_1.688076_NS=?,leaf_429_1.687324_NS=?,leaf_42_2.509307_NS=?,leaf_430_1.679451_NS=?,leaf_431_1.677798_NS=?,leaf_432_1.672305_NS=?,leaf_433_1.667243_NS=?,leaf_434_1.664482_SS=?,leaf_435_1.661841_NS=?,leaf_436_1.657079_NS=?,leaf_437_1.628115_NS=?,leaf_438_1.625542_NS=?,leaf_439_1.619430_NS=?,leaf_43_2.509225_NS=?,leaf_440_1.611687_NS=?,leaf_441_1.608937_NS=?,leaf_442_1.593176_NS=?,leaf_443_1.576535_NS=?,leaf_444_1.575868_NS=?,leaf_445_1.567652_NS=?,leaf_446_1.564143_SS=?,leaf_447_1.555264_NS=?,leaf_448_1.553172_NS=?,leaf_449_1.549940_NS=?,leaf_44_2.507893_NS=?,leaf_450_1.530072_NS=?,leaf_451_1.529948_SS=?,leaf_452_1.511821_NS=?,leaf_453_1.499259_NS=?,leaf_454_1.492254_NS=?,leaf_455_1.490434_NS=?,leaf_456_1.487756_NS=?,leaf_457_1.463729_NS=?,leaf_458_1.443893_NS=?,leaf_459_1.430707_NS=?,leaf_45_2.505956_SS=?,leaf_460_1.424592_NS=?,leaf_461_1.414834_NS=?,leaf_462_1.401691_NS=?,leaf_463_1.382776_NS=?,leaf_464_1.380089_NS=?,leaf_465_1.368819_NS=?,leaf_466_1.365909_NS=?,leaf_467_1.359518_NS=?,leaf_468_1.335865_NS=?,leaf_469_1.308172_NS=?,leaf_46_2.505833_NS=?,leaf_470_1.293558_NS=?,leaf_471_1.289525_NS=?,leaf_472_1.282779_NS=?,leaf_473_1.278562_NS=?,leaf_474_1.276844_SS=?,leaf_475_1.268849_NS=?,leaf_476_1.238221_NS=?,leaf_477_1.224449_NS=?,leaf_478_1.190068_NS=?,leaf_479_1.149597_NS=?,leaf_47_2.504477_NS=?,leaf_480_1.138990_NS=?,leaf_481_1.112186_NS=?,leaf_482_1.070855_NS=?,leaf_483_1.017245_NS=?,leaf_484_0.985162_NS=?,leaf_485_0.955462_NS=?,leaf_486_0.880618_NS=?,leaf_487_0.832315_NS=?,leaf_488_0.816669_NS=?,leaf_489_0.816052_NS=?,leaf_48_2.504068_NS=?,leaf_490_0.809123_NS=?,leaf_491_0.769592_NS=?,leaf_492_0.721662_NS=?,leaf_493_0.701572_NS=?,leaf_494_0.654721_NS=?,leaf_495_0.630770_NS=?,leaf_496_0.561230_NS=?,leaf_497_0.493630_NS=?,leaf_498_0.438647_NS=?,leaf_499_0.287874_NS=?,leaf_49_2.503791_NS=?,leaf_4_2.540973_SS=?,leaf_50_2.503145_NS=?,leaf_51_2.502808_NS=?,leaf_52_2.502272_NS=?,leaf_53_2.501458_NS=?,leaf_54_2.501194_NS=?,leaf_55_2.500521_NS=?,leaf_56_2.500190_NS=?,leaf_57_2.499722_NS=?,leaf_58_2.498580_SS=?,leaf_59_2.498014_NS=?,leaf_5_2.539807_NS=?,leaf_60_2.495682_NS=?,leaf_61_2.495287_NS=?,leaf_62_2.494587_NS=?,leaf_63_2.491747_NS=?,leaf_64_2.490430_NS=?,leaf_65_2.490349_NS=?,leaf_66_2.487459_NS=?,leaf_67_2.487270_SS=?,leaf_68_2.483970_NS=?,leaf_69_2.483432_NS=?,leaf_6_2.539032_NS=?,leaf_70_2.482317_NS=?,leaf_71_2.482178_NS=?,leaf_72_2.481902_NS=?,leaf_73_2.479189_NS=?,leaf_74_2.475301_NS=?,leaf_75_2.475027_NS=?,leaf_76_2.474047_NS=?,leaf_77_2.472186_NS=?,leaf_78_2.471001_NS=?,leaf_79_2.470322_NS=?,leaf_7_2.538077_NS=?,leaf_80_2.469241_NS=?,leaf_81_2.468946_NS=?,leaf_82_2.468126_NS=?,leaf_83_2.468067_NS=?,leaf_84_2.467525_NS=?,leaf_85_2.462917_NS=?,leaf_86_2.461724_NS=?,leaf_87_2.461240_NS=?,leaf_88_2.460492_NS=?,leaf_89_2.459847_NS=?,leaf_8_2.537203_NS=?,leaf_90_2.459608_NS=?,leaf_91_2.458590_NS=?,leaf_92_2.458511_NS=?,leaf_93_2.457586_NS=?,leaf_94_2.455814_SS=?,leaf_95_2.452034_NS=?,leaf_96_2.450670_NS=?,leaf_97_2.448404_NS=?,leaf_98_2.447353_NS=?,leaf_99_2.443270_NS=?,leaf_9_2.536554_NS=?">
+                                    <taxa id="TaxonSet.1" spec="TaxonSet" alignment="@tutorial"/>
+                                </typeTraitSet>
+                            </typeSet>
+                        </becomeUninfectiousRate>
+                        <samplingProportion id="samplingProportionSPSuperSpreader.t:tutorial" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@processLengthBDMMPrime.t:tutorial" skylineValues="@samplingProportionSuperSpreader.t:tutorial" timesAreAges="true" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <rhoSampling id="rhoSamplingProbSPSuperSpreader.t:tutorial" spec="bdmmprime.parameterization.TimedParameter" processLength="@processLengthBDMMPrime.t:tutorial" timesAreAges="true" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <removalProb id="removalProbSPSuperSpreader.t:tutorial" spec="bdmmprime.parameterization.SkylineVectorParameter" processLength="@processLengthBDMMPrime.t:tutorial" timesAreAges="true" typeSet="@typeSetBDMMPrime.t:tutorial">
+                            <parameter id="removalProbSuperSpreader.t:tutorial" spec="parameter.RealParameter" estimate="false" lower="0.0" name="skylineValues" upper="1.0">1.0</parameter>
+                        </removalProb>
+                        <migrationRate id="migrationRateSPSuperSpreader.t:tutorial" spec="bdmmprime.parameterization.SkylineMatrixParameter" processLength="@processLengthBDMMPrime.t:tutorial" timesAreAges="true" typeSet="@typeSetBDMMPrime.t:tutorial">
+                            <parameter id="migrationRateSuperSpreader.t:tutorial" spec="parameter.RealParameter" estimate="false" lower="0.0" name="skylineValues">0.0</parameter>
+                        </migrationRate>
+                        <CommonChangeTime id="CommonChangeTimeSPSuperSpreader.t:tutorial" spec="superspreader.parameterization.TimeOnlySkylineParameter" processLength="@processLengthBDMMPrime.t:tutorial" timesAreAges="true" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <ReAverage id="ReAverageSPSuperSpreader.t:tutorial" spec="superspreader.parameterization.SkylineScalarWithCommonTimeParameter" commonSkyline="@CommonChangeTimeSPSuperSpreader.t:tutorial" processLength="@processLengthBDMMPrime.t:tutorial" skylineValues="@ReAverageSuperSpreader.t:tutorial" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <SSFrac id="SSFracSPSuperSpreader.t:tutorial" spec="superspreader.parameterization.SkylineScalarWithCommonTimeParameter" commonSkyline="@CommonChangeTimeSPSuperSpreader.t:tutorial" processLength="@processLengthBDMMPrime.t:tutorial" skylineValues="@SSFracSuperSpreader.t:tutorial" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <ReMultiplier id="ReMultiplierSPSuperSpreader.t:tutorial" spec="superspreader.parameterization.SkylineScalarWithCommonTimeParameter" commonSkyline="@CommonChangeTimeSPSuperSpreader.t:tutorial" processLength="@processLengthBDMMPrime.t:tutorial" skylineValues="@ReMultiplierSuperSpreader.t:tutorial" typeSet="@typeSetBDMMPrime.t:tutorial"/>
+                        <typeSet idref="typeSetBDMMPrime.t:tutorial"/>
+                        <processLength idref="processLengthBDMMPrime.t:tutorial"/>
+                    </parameterization>
+                    <parameter id="startTypePriorProbs.t:tutorial" spec="parameter.RealParameter" dimension="2" estimate="false" lower="0.0" name="startTypePriorProbs" upper="1.0">0.9 0.1</parameter>
+                    <typeTraitSet idref="typeTraitSet.t:tutorial"/>
+                </distribution>
+                <distribution id="ReAverageSuperSpreaderPrior.t:tutorial" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@ReAverageSuperSpreader.t:tutorial">
+                    <OneOnX id="OneOnX.24" name="distr"/>
+                </distribution>
+                <distribution id="ReMultiplierSuperSpreaderPrior.t:tutorial" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@ReMultiplierSuperSpreader.t:tutorial">
+                    <Exponential id="Exponential.1" name="distr">
+                        <mean id="Function$Constant.0" spec="Function$Constant" value="10.0"/>
+                    </Exponential>
+                </distribution>
+                <distribution id="SSFracSuperSpreaderPrior.t:tutorial" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@SSFracSuperSpreader.t:tutorial">
+                    <Beta id="Beta.0" name="distr">
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">1.0</parameter>
+                    </Beta>
+                </distribution>
+                <distribution id="becomeUninfectiousRateSuperSpreaderPrior.t:tutorial" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@becomeUninfectiousRateSuperSpreader.t:tutorial">
+                    <OneOnX id="OneOnX.16" name="distr"/>
+                </distribution>
+                <prior id="ClockPrior.c:tutorial" name="distribution" x="@clockRate.c:tutorial">
+                    <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="processLengthBDMMPrimePrior.t:tutorial" name="distribution" x="@processLengthBDMMPrime.t:tutorial">
+                    <OneOnX id="OneOnX.1" name="distr"/>
+                </prior>
+                <distribution id="samplingProportionSuperSpreaderPrior.t:tutorial" spec="bdmmprime.util.priors.ZeroExcludingPrior" x="@samplingProportionSuperSpreader.t:tutorial">
+                    <Uniform id="Uniform.10" name="distr"/>
+                </distribution>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.tutorial" spec="ThreadedTreeLikelihood" data="@tutorial" tree="@Tree.t:tutorial">
+                    <siteModel id="SiteModel.s:tutorial" spec="SiteModel">
+                        <parameter id="mutationRate.s:tutorial" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:tutorial" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:tutorial" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:tutorial" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:tutorial" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:tutorial"/>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="StrictClockRateScaler.c:tutorial" spec="AdaptableOperatorSampler" weight="0.0">
+            <parameter idref="clockRate.c:tutorial"/>
+            <operator id="AVMNOperator.tutorial" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                <transformations id="AVMNSumTransform.tutorial" spec="operator.kernel.Transform$LogConstrainedSumTransform"/>
+                <transformations id="AVMNLogTransform.tutorial" spec="operator.kernel.Transform$LogTransform">
+                    <f idref="clockRate.c:tutorial"/>
+                </transformations>
+                <transformations id="AVMNNoTransform.tutorial" spec="operator.kernel.Transform$NoTransform">
+                    <f idref="Tree.t:tutorial"/>
+                </transformations>
+            </operator>
+            <operator id="StrictClockRateScalerX.c:tutorial" spec="kernel.BactrianScaleOperator" parameter="@clockRate.c:tutorial" upper="10.0" weight="3.0"/>
+        </operator>
+        <operator id="strictClockUpDownOperator.c:tutorial" spec="AdaptableOperatorSampler" weight="0.0">
+            <parameter idref="clockRate.c:tutorial"/>
+            <tree idref="Tree.t:tutorial"/>
+            <operator idref="AVMNOperator.tutorial"/>
+            <operator id="strictClockUpDownOperatorX.c:tutorial" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="3.0">
+                <up idref="clockRate.c:tutorial"/>
+                <down idref="Tree.t:tutorial"/>
+            </operator>
+        </operator>
+        <operator id="BDMMPrimeLeafToSA.t:tutorial" spec="sa.evolution.operators.LeafToSampledAncestorJump" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSAWilsonBalding.t:tutorial" spec="sa.evolution.operators.SAWilsonBalding" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSAWide.t:tutorial" spec="sa.evolution.operators.SAExchange" isNarrow="false" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSANarrow.t:tutorial" spec="sa.evolution.operators.SAExchange" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSAUniformOperator.t:tutorial" spec="sa.evolution.operators.SAUniform" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSATreeRootScaler.t:tutorial" spec="sa.evolution.operators.SAScaleOperator" rootOnly="true" scaleFactor="0.95" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="BDMMPrimeSATreeScaler.t:tutorial" spec="sa.evolution.operators.SAScaleOperator" scaleFactor="0.95" tree="@Tree.t:tutorial" weight="0.0"/>
+        <operator id="originBDMMPrimeScaler.t:tutorial" spec="ScaleOperator" parameter="@originBDMMPrime.t:tutorial" weight="3.0"/>
+        <operator id="JointBDMMPrimeSkylineScaleOperator.t:tutorial" spec="bdmmprime.util.operators.JointSkylineScaleOperator" weight="3.0">
+            <skylineParameter idref="becomeUninfectiousRateSPSuperSpreader.t:tutorial"/>
+        </operator>
+        <operator id="becomeUninfectiousRateSuperSpreaderScaler.t:tutorial" spec="ScaleOperator" parameter="@becomeUninfectiousRateSuperSpreader.t:tutorial" weight="3.0"/>
+        <operator id="samplingProportionSuperSpreaderScaler.t:tutorial" spec="ScaleOperator" parameter="@samplingProportionSuperSpreader.t:tutorial" weight="3.0"/>
+        <operator id="ReAverageSuperSpreaderScaler.t:tutorial" spec="ScaleOperator" parameter="@ReAverageSuperSpreader.t:tutorial" weight="3.0"/>
+        <operator id="SSFracSuperSpreaderScaler.t:tutorial" spec="ScaleOperator" parameter="@SSFracSuperSpreader.t:tutorial" weight="3.0"/>
+        <operator id="ReMultiplierSuperSpreaderScaler.t:tutorial" spec="ScaleOperator" parameter="@ReMultiplierSuperSpreader.t:tutorial" weight="3.0"/>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.tutorial"/>
+            <log id="TreeHeight.t:tutorial" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:tutorial"/>
+            <log idref="clockRate.c:tutorial"/>
+            <log idref="originBDMMPrime.t:tutorial"/>
+            <log id="startTypePosteriorProbsLogger.t:tutorial" spec="bdmmprime.util.StartTypePosteriorProbsLogger" bdmmTreePrior="@BDMMPrime.t:tutorial"/>
+            <log id="typedTreeStats.t:tutorial" spec="bdmmprime.mapping.TypedTreeStatsLogger" includeRootEdge="true" typeLabel="type" typeSet="@typeSetBDMMPrime.t:tutorial">
+                <typedTree id="typeMappedTree.t:tutorial" spec="bdmmprime.mapping.TypeMappedTree" bdmmDistrib="@BDMMPrime.t:tutorial" mapOnInit="false" remapOnLog="true" startTypePriorProbs="@startTypePriorProbs.t:tutorial" typeLabel="type" typeTraitSet="@typeTraitSet.t:tutorial" untypedTree="@Tree.t:tutorial"/>
+            </log>
+            <log idref="becomeUninfectiousRateSPSuperSpreader.t:tutorial"/>
+            <log idref="samplingProportionSPSuperSpreader.t:tutorial"/>
+            <log idref="ReAverageSPSuperSpreader.t:tutorial"/>
+            <log idref="SSFracSPSuperSpreader.t:tutorial"/>
+            <log idref="ReMultiplierSPSuperSpreader.t:tutorial"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:tutorial" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:tutorial" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:tutorial"/>
+        </logger>
+        <logger id="typedTreeLogger.t:tutorial" spec="bdmmprime.util.OptionalLogger" enableLogger="true" fileName="$(filebase).$(tree).typed.trees" logEvery="1000" mode="tree">
+            <log idref="typeMappedTree.t:tutorial"/>
+        </logger>
+        <logger id="nodeTypedTreeLogger.t:tutorial" spec="bdmmprime.util.OptionalLogger" enableLogger="true" fileName="$(filebase).$(tree).typed.node.trees" logEvery="1000" mode="tree">
+            <log id="nodeTypedTree.t:tutorial" spec="bdmmprime.mapping.TypedNodeTreeLogger" typedTree="@typeMappedTree.t:tutorial"/>
+        </logger>
+        <logger id="trajLogger.t:tutorial" spec="bdmmprime.util.OptionalLogger" fileName="$(filebase).$(tree).traj" logEvery="1000">
+            <log id="typedTraj.t:tutorial" spec="bdmmprime.trajectories.SampledTrajectory" bdmmDistrib="@BDMMPrime.t:tutorial" startTypePriorProbs="@startTypePriorProbs.t:tutorial" typeMappedTree="@typeMappedTree.t:tutorial" useTauLeaping="true"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
