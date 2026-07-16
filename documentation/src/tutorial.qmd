@@ -12,7 +12,6 @@ execute:
 ---
 
 
-
 This tutorial explains how to use the **SuperSpreader** package for BEAST2. The package extends the BDMM-Prime parametrization to model heterogeneous transmission through two host types:
 
 - **NS**: normal spreaders (standard transmission)

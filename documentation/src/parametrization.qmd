@@ -9,10 +9,6 @@ p {
 }
 ```
 
-```{r}
-
-```
-
 In this work, we implement superspreading in a Bayesian phylodynamic framework as a multi-type birth-death (MTBD) process, as described [here](https://royalsocietypublishing.org/rstb/article-abstract/368/1614/20120198/42099/Uncovering-epidemiological-dynamics-in). Under this implementation, superspreading is defined as a discrete trait resulting in two distinct demes (i.e. populations): superspreaders (ss) and non-superspreaders (ns). Then, given a shared death rate, the superspreading dynamics are defined using three parameters defined in equations @eq-r0, @eq-fss and @eq-ta: The overall reproductive number ($R_e$), the fraction of superspreaders ($f_{ss}$), and the transmission advantage of superspreaders relative to non-superspreaders($\mathcal{T}_{a}$) respectively.
 
 $$R_{e} = (1-f_{ss})Re_{ns} + f_{ss}Re_{ss};\ \ \ Re_i = Re_{i,ss} + Re_{i,ns}$${#eq-r0}
