@@ -5,20 +5,32 @@ stages:
 build:
   stage: build
   image: eclipse-temurin:17
+
   variables:
     JAVA_FX_HOME: /usr/share/openjfx/lib
+
   before_script:
     - apt-get update
     - apt-get install -y ant openjfx unzip wget
+
   script:
     - ant
 
 create-pages:
   stage: deploy
-  image: node:lts
+
+  image:
+    name: ghcr.io/quarto-dev/quarto:latest
+    entrypoint: [""]
+
   script:
-    - echo "Publishing page"
+    - quarto --version
+    - rm -rf documentation/docs
+    - quarto render documentation
+    - test -s documentation/docs/index.html
+
   pages:
     publish: documentation/docs
+
   rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
