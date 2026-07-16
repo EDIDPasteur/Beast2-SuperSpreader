@@ -1,0 +1,51 @@
+---
+title: "Parametrization"
+---
+
+```{css}
+/*| echo: false */
+p {
+  text-align: justify
+}
+```
+
+```{r}
+
+```
+
+In this work, we implement superspreading in a Bayesian phylodynamic framework as a multi-type birth-death (MTBD) process, as described [here](https://royalsocietypublishing.org/rstb/article-abstract/368/1614/20120198/42099/Uncovering-epidemiological-dynamics-in). Under this implementation, superspreading is defined as a discrete trait resulting in two distinct demes (i.e. populations): superspreaders (ss) and non-superspreaders (ns). Then, given a shared death rate, the superspreading dynamics are defined using three parameters defined in equations @eq-r0, @eq-fss and @eq-ta: The overall reproductive number ($R_e$), the fraction of superspreaders ($f_{ss}$), and the transmission advantage of superspreaders relative to non-superspreaders($\mathcal{T}_{a}$) respectively.
+
+$$R_{e} = (1-f_{ss})Re_{ns} + f_{ss}Re_{ss};\ \ \ Re_i = Re_{i,ss} + Re_{i,ns}$${#eq-r0}
+
+
+
+$$f_{ss} = \frac{Re_{ss,ss}}{Re_{ss,ss} + Re_{ss,ns}}$${#eq-fss}
+
+
+
+$$\mathcal{T}_a = \frac{Re_{ss,ss}}{Re_{ns,ss}} = \frac{Re_{ss,ns}}{Re_{ns,ns}}$${#eq-ta}
+
+
+
+
+With these definitions, we can then recover for a set of $R_e$, $f_{ss}$ and $\mathcal{T}_a$ the reproductive numbers that define the MTBD as follows: 
+
+$$
+Re_{ns} = \frac{R_e}{1 + f_{ss}(\mathcal{T}_a -1)}
+$$
+
+$$
+Re_{ss} = \mathcal{T}_aRe_{ns}
+$$
+
+$$
+Reproductive \ numbers = 
+\begin{cases}
+Re_{ss,ss} = f_{ss}Re_{ss} \\
+Re_{ss,ns} = (1 - f_{ss})Re_{ss} \\
+Re_{ns,ss} = f_{ss}Re_{ns} \\
+Re_{ns,ns} = (1 - f_{ss})Re_{ns} 
+\end{cases}
+$$
+
+Importantly, we assume that no contact tracing data are available, and thus, we cannot assign a type to each isolate ("superspreader" or "non-superspreader"). Instead, the type of each isolate is treated as unknown, and we integrate over their uncertainty across the two types. However, this approach leads to unidentifiability with respect to permutation of the mapping between types and rates. To avoid this problem we constrain $\mathcal{T}_a$ to be greater than 1, implying that $Re_{ss} > Re_{ns}$.     

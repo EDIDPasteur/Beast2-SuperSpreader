@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "SuperSpreader Parametrization" 
+  navbar:
+    search: true
+    pinned: true
+    left: 
+      - text: "Parametrization"
+        href: src/parametrization.qmd
+      - text: "Tutorial"
+        href: src/tutorial.qmd
+      - text: "Test Analysis"
+        href: src/test-analysis.qmd
+     
+    tools:
+    - icon: github
+      href: https://github.com/EDIDPasteur/Beast2-SuperSpreader
+    
+format:
+  html:
+    theme:
+      light: minty
+    self-contained: false
+    toc: true
+    toc-depth: 10
+engine: knitr
+editor: visual

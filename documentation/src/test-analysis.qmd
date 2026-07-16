@@ -1,0 +1,111 @@
+---
+title: "Test Analysis"
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    code-fold: false
+    number-sections: true
+execute:
+  echo: false
+---
+
+A small example dataset is provided to test the SuperSpreader model. The alignment contains placeholder sequences (`nnn`) rather than real genetic data, allowing for rapid model testing without phylogenetic inference.
+
+The tree was simulated with the following parameters:
+
+- **$f_{ss}$, SuperSpreader fraction: 0.05**
+- **$\mathcal{T}_a$, Transmission advantage: 10**
+
+## Download and load the example alignment
+
+- Download [`tutorial.fa`](data/tutorial.fa)
+- Open the `Partitions` tab in BEAUti
+- Click `Import Alignment`
+- Select the downloaded file
+
+## Set the tip dates
+
+1. Open the `Tip Dates` tab
+2. Click `Auto-configure`
+3. Select `Split on character` and use `_` as the separator  
+4. Choose `Take group 3`  
+   (the third field corresponds to the sampling time in the example taxon names)
+5. Click on `Ok`
+
+## Set the site model
+
+Since the alignment contains only placeholder sequences (`nnn`), there is no genetic information to infer a substitution model. No action is required. The default Jukes-Cantor (JC) model is appropriate as it has no free parameters to estimate.
+
+## Set the clock model
+
+1. Open the `Clock Model` tab
+2. Use a strict clock
+3. Set the clock rate to `0.0000045` substitutions per site per year
+
+## Configure the SuperSpreader model
+
+In the `Priors` panel:
+
+1. Select the `BDMM-Prime` tree prior and the `SuperSpreader` parametrization  
+2. Set `Become Uninfectious Rate` to **4**  
+   (After entering **4** in the table, press **Enter** to confirm the value)
+
+![](figures/Become%20Uninfectious%20Rate.png){width=80%}
+
+3. Set `Migration Rate` to **0**  
+   (After entering **0** in the table, press **Enter** to confirm the value)  
+
+![](figures/Migration%20Rate.png){width=80%}
+
+## Fix the tree topology
+
+Since the alignment contains only placeholder sequences, there is no phylogenetic signal to infer the tree topology or branch lengths. The tree is therefore fixed to a predefined topology to speed up the analysis. Only the model parameters (SuperSpreader parametrization and clock rate) are estimated from the tip dates.
+
+### Set the starting tree
+
+1. Go to `View > Show Starting tree panel`
+2. Select `Newick tree`
+3. Paste the following Newick string:
+
+```text
+((((((((((((((((((leaf_0_2.245353_NS:0.69531,leaf_67_2.194432_NS:0.64439):0.20214,leaf_233_1.993850_NS:0.64595):0.37404,((leaf_90_2.168595_NS:0.82191,leaf_429_1.492587_NS:0.14591):0.02066,leaf_416_1.559677_NS:0.23365):0.35216):0.04146,(((((((((((leaf_5_2.241727_NS:0.37606,leaf_279_1.926576_NS:0.06091):0.11009,leaf_55_2.203052_NS:0.44748):0.11823,leaf_371_1.712100_NS:0.07475):0.00656,leaf_44_2.212982_NS:0.58219):0.26673,leaf_418_1.554222_NS:0.19017):0.06956,(((leaf_45_2.211998_NS:0.36034,(leaf_142_2.119118_SS:0.19871,(leaf_215_2.020681_NS:0.07055,leaf_239_1.983568_NS:0.03344):0.02972):0.06874):0.37997,leaf_355_1.765133_NS:0.29345):0.00545,leaf_419_1.551607_NS:0.08537):0.17175):0.05050,(((leaf_228_1.998575_NS:0.10121,leaf_258_1.963585_NS:0.06622):0.33263,leaf_269_1.941363_NS:0.37663):0.08317,leaf_331_1.815291_NS:0.33373):0.23757):0.09785,(((((leaf_33_2.217832_NS:0.66198,leaf_385_1.666625_NS:0.11077):0.17751,leaf_219_2.012352_NS:0.63401):0.10819,(leaf_399_1.612915_NS:0.06662,leaf_412_1.570107_NS:0.02382):0.27613):0.05061,(leaf_108_2.150794_NS:0.63871,leaf_188_2.053426_NS:0.54134):0.29254):0.04671,leaf_466_1.191016_NS:0.01818):0.02670):0.00137,leaf_88_2.170315_NS:1.02555):0.01211,((((leaf_64_2.194874_NS:0.23288,leaf_259_1.962584_NS:0.00059):0.53514,leaf_390_1.661823_NS:0.23496):0.00069,(leaf_137_2.123173_NS:0.64113,leaf_249_1.972936_NS:0.49089):0.05588):0.25327,leaf_381_1.682400_NS:0.50950):0.04025):0.04422,leaf_456_1.264902_NS:0.17647):0.15603):0.06669,(((((((leaf_13_2.234610_NS:0.65682,(leaf_306_1.867735_NS:0.16425,leaf_323_1.834040_NS:0.13056):0.12570):0.25151,(leaf_37_2.216116_NS:0.69136,((leaf_95_2.164861_SS:0.30278,leaf_153_2.100394_NS:0.23831):0.06925,leaf_336_1.801910_SS:0.00908):0.26807):0.19849):0.18710,((((leaf_50_2.207027_NS:0.62674,leaf_150_2.105658_NS:0.52537):0.28532,(leaf_341_1.798621_SS:0.43906,leaf_440_1.412054_NS:0.05249):0.06460):0.08003,leaf_431_1.474636_NS:0.25969):0.06753,((leaf_201_2.034241_NS:0.03793,leaf_205_2.029282_NS:0.03297):0.15407,leaf_342_1.797324_SS:0.31945):0.24861):0.15111,((((leaf_196_2.038762_NS:0.30488,leaf_284_1.921540_NS:0.18766):0.15076,leaf_31_2.218881_NS:0.47203):0.14390,((leaf_179_2.067670_NS:0.08492,leaf_184_2.056790_NS:0.07404):0.14156,leaf_280_1.925494_NS:0.24006):0.20005):0.09578,(((((leaf_121_2.138795_NS:0.03787,leaf_127_2.135858_NS:0.03493):0.22966,leaf_192_2.036199_NS:0.13130):0.05107,leaf_463_1.311157_NS:0.04598):0.08127,((leaf_168_2.082923_NS:0.08768,leaf_173_2.076203_NS:0.08096):0.08895,leaf_402_1.587039_NS:0.00810):0.14147):0.06499,((leaf_250_1.971151_NS:0.21070,leaf_311_1.853835_NS:0.09338):0.06767,leaf_362_1.739632_NS:0.13753):0.24799):0.06217):0.00677,((leaf_24_2.224688_NS:0.25592,((leaf_262_1.958628_NS:0.01670,leaf_266_1.956009_NS:0.01408):0.00472,leaf_408_1.573299_NS:0.01074):0.04076):0.17955,(leaf_169_2.081623_NS:0.05604,leaf_174_2.075293_NS:0.04971):0.26018):0.05096,(((((leaf_6_2.241623_NS:0.60544,leaf_278_1.927500_NS:0.06132):0.04427,leaf_397_1.617276_NS:0.27445):0.02068,leaf_43_2.213326_NS:0.59768):0.01563,((leaf_242_1.981729_NS:0.27157,leaf_352_1.775124_NS:0.08725):0.20044,leaf_400_1.611573_NS:0.23833):0.07286):0.06024,((leaf_232_1.995345_NS:0.16381,leaf_252_1.968264_NS:0.13673):0.00299,leaf_383_1.672807_NS:0.25240):0.23780):0.03864,((((leaf_15_2.233470_NS:0.27077,leaf_294_1.905155_NS:0.05754):0.05690,leaf_36_2.216230_NS:0.44639):0.04973,(((leaf_14_2.234252_NS:0.32889,leaf_293_1.905361_NS:0.05775):0.00059,leaf_349_1.784053_SS:0.23134):0.05806,((leaf_146_2.113196_NS:0.03769,leaf_149_2.110879_NS:0.03537):0.00536,leaf_451_1.353909_NS:0.07103):0.16559):0.06455):0.01644,(((leaf_19_2.229954_NS:0.34000,leaf_288_1.914254_NS:0.06665):0.13542,leaf_42_2.213561_NS:0.58882):0.00875,leaf_430_1.476070_NS:0.25986):0.18840):0.01623,((((leaf_75_2.183630_NS:0.42940,leaf_360_1.744796_NS:0.09057):0.00473,leaf_81_2.178482_NS:0.43505):0.00470,leaf_136_2.123278_NS:0.64123):0.01243,(leaf_117_2.142885_NS:0.27387,leaf_460_1.218328_NS:0.02191):0.38923):0.03266,((((leaf_2_2.247810_NS:0.42475,leaf_70_2.191934_NS:0.36888):0.00873,leaf_346_1.792695_SS:0.22398):0.01264,(((leaf_11_2.236538_NS:0.28543,leaf_299_1.896789_NS:0.05828):0.00680,leaf_354_1.767990_NS:0.29268):0.02023,leaf_425_1.482335_NS:0.24841):0.15157):0.02792,(((leaf_26_2.222632_NS:0.21352,leaf_272_1.935971_NS:0.07336):0.00376,leaf_394_1.631074_NS:0.19492):0.02126,((leaf_83_2.176987_NS:0.43352,leaf_358_1.752268_NS:0.09805):0.00197,leaf_84_2.176479_NS:0.43301):0.19555):0.04843):0.02585,((((((leaf_22_2.226598_NS:0.12093,leaf_270_1.940934_NS:0.07827):0.00287,leaf_392_1.644285_NS:0.17524):0.01916,((leaf_98_2.161680_SS:0.10250,leaf_156_2.097339_NS:0.23512):0.07150,leaf_334_1.807269_NS:0.32262):0.04683):0.01174,(((leaf_124_2.137322_NS:0.10675,leaf_131_2.131922_NS:0.10135):0.02008,leaf_466_1.191016_NS:0.01818):0.02670):0.00137,leaf_88_2.170315_NS:1.02555):0.01211)))))))))))))))))))))))
+```
+
+![](figures/Starting%20tree%20panel.png){width=80%}
+
+### Disable tree topology operators
+
+Since the tree is fixed, disable all tree-modification operators to prevent invalid proposals.
+
+1. Go to `View > Show Operators panel`
+2. Set all operator weights to **0**
+
+![](figures/operators%20panel.png){width=100%}
+
+Alternatively, you can comment out the tree-modification operator lines directly in the XML file after saving it.
+
+## MCMC settings
+
+1. Go to the `MCMC` panel
+2. Set `Chain Length` to **1000000**
+
+## Save the XML
+
+1. Go to `File > Save` or `File > Save As`
+2. Choose a file name and location
+3. Click `Save`
+
+## Run the analysis
+
+```bash
+beast analysis.xml
+```
+
+## Reference files
+
+The following files are provided for reference:
+
+- [`Example XML`](data/tutorial.xml) produced by BEAUti for this test analysis
+- Expected output: [`log file`](data/tutorial.log) and [`typed trees`](data/tutorial.tutorial.typed.trees)
