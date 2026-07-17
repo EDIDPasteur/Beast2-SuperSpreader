@@ -10,7 +10,7 @@ website:
     pinned: true
     left: 
       - text: "Parametrization"
-        href: src/parametrization.qmd
+        href: index.qmd
       - text: "Tutorial"
         href: src/tutorial.qmd
       - text: "Test Analysis"
